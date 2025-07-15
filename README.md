@@ -49,7 +49,7 @@ Requires:
 
 ### Ubuntu
 ```bash
-sudo apt-get install libgtk-3-dev
+sudo apt-get install libgtk-3-dev ruby-full
 ```
 
 ### MacOS
@@ -62,10 +62,15 @@ brew install gtk+3 gtk-mac-integration
 In order to build DecoyIM, you should check out the source code, and run:
 
 ```sh
+make deps
 make build
 ```
 
+
 It might be possible to build DecoyIM using `go get` but we currently do not support this method.
+
+NOTE: If `esc` isn't found after `make deps`, it's likely in `$HOME/go/bin`.  
+Run `export PATH="$HOME/go/bin:$PATH"` to fix it.
 
 
 ## Contributing to DecoyIM
