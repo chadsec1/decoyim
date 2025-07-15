@@ -4,7 +4,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // List represent a list of peers. It takes care of both roster and presence information

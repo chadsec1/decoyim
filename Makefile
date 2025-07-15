@@ -37,7 +37,7 @@ BUILD_TOOLS_DIR := .build-tools
 COVERPROFILES := .coverprofiles
 
 PKGS := $(shell go list ./... | grep -v /vendor)
-SRC_DIRS := . $(addprefix .,$(subst github.com/coyim/coyim,,$(PKGS)))
+SRC_DIRS := . $(addprefix .,$(subst github.com/chadsec1/decoyim,,$(PKGS)))
 SRC_TEST := $(foreach sdir,$(SRC_DIRS),$(wildcard $(sdir)/*_test.go))
 SRC_ALL := $(foreach sdir,$(SRC_DIRS),$(wildcard $(sdir)/*.go))
 SRC := $(filter-out $(SRC_TEST), $(SRC_ALL))

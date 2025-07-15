@@ -1,6 +1,6 @@
 package session
 
-import "github.com/coyim/coyim/xmpp/data"
+import "github.com/chadsec1/decoyim/xmpp/data"
 
 // RemoveContact is used to remove a contact
 func (s *session) RemoveContact(jid string) {

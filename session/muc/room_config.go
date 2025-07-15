@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"sync"
 
-	xmppData "github.com/coyim/coyim/xmpp/data"
+	xmppData "github.com/chadsec1/decoyim/xmpp/data"
 )
 
 const (

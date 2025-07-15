@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coyim/coyim/coylog"
+	"github.com/chadsec1/decoyim/coylog"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

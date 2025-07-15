@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/otrclient"
-	rosters "github.com/coyim/coyim/roster"
-	"github.com/coyim/coyim/session/access"
-	sessions "github.com/coyim/coyim/session/access"
-	"github.com/coyim/coyim/xmpp/interfaces"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/otrclient"
+	rosters "github.com/chadsec1/decoyim/roster"
+	"github.com/chadsec1/decoyim/session/access"
+	sessions "github.com/chadsec1/decoyim/session/access"
+	"github.com/chadsec1/decoyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 type accountManager struct {

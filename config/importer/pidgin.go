@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 )
 
 // In $HOME or $APPDATA

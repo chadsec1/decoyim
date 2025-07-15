@@ -3,7 +3,7 @@ package gui
 import (
 	"fmt"
 
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/session/muc/data"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

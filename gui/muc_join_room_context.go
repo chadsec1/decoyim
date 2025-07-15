@@ -1,8 +1,8 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/session/muc"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/muc"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 type mucJoinRoomContext struct {

@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/session/muc"
+	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

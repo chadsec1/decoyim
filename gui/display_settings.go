@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coyim/coyim/gui/css"
+	"github.com/chadsec1/decoyim/gui/css"
 	"github.com/coyim/gotk3adapter/gtki"
 	"github.com/coyim/gotk3adapter/pangoi"
 	"github.com/gotk3/gotk3/gtk"

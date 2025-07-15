@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/gotk3adapter/glibi"
 	"github.com/coyim/gotk3adapter/gtki"
 )

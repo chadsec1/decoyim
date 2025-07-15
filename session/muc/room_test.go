@@ -3,9 +3,9 @@ package muc
 import (
 	"time"
 
-	"github.com/coyim/coyim/session/events"
-	"github.com/coyim/coyim/session/muc/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/events"
+	"github.com/chadsec1/decoyim/session/muc/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 
 	. "gopkg.in/check.v1"
 )

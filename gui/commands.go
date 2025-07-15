@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/otrclient"
+	"github.com/chadsec1/decoyim/otrclient"
 )
 
 type executable interface {

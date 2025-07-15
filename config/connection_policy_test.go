@@ -8,13 +8,13 @@ import (
 
 	"golang.org/x/net/proxy"
 
-	"github.com/coyim/coyim/coylog"
-	ournet "github.com/coyim/coyim/net"
-	"github.com/coyim/coyim/servers"
-	ourtls "github.com/coyim/coyim/tls"
-	"github.com/coyim/coyim/xmpp"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/coylog"
+	ournet "github.com/chadsec1/decoyim/net"
+	"github.com/chadsec1/decoyim/servers"
+	ourtls "github.com/chadsec1/decoyim/tls"
+	"github.com/chadsec1/decoyim/xmpp"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/interfaces"
 	. "gopkg.in/check.v1"
 )
 

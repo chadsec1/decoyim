@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/session/events"
-	"github.com/coyim/coyim/session/muc/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/session/events"
+	"github.com/chadsec1/decoyim/session/muc/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 func (v *roomView) handleRoomEvent(ev events.MUC) {

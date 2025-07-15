@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/coyim/coyim/gui/settings/definitions"
+	"github.com/chadsec1/decoyim/gui/settings/definitions"
 	"github.com/coyim/gotk3adapter/glibi"
 )
 

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/otr3"
 )
 

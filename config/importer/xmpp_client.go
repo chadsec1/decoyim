@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 )
 
 type xmppClientConfig struct {

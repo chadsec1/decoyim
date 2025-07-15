@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/coyim/coyim/session/access"
+	"github.com/chadsec1/decoyim/session/access"
 	"github.com/coyim/otr3"
 )
 

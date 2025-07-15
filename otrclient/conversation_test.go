@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"errors"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/otr3"
 
 	. "gopkg.in/check.v1"

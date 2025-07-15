@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/coyim/coyim/coylog"
+	"github.com/chadsec1/decoyim/coylog"
 	log "github.com/sirupsen/logrus"
 )
 

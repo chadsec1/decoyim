@@ -2,7 +2,7 @@
 // according to RFC 5802.
 package scram
 
-import "github.com/coyim/coyim/sasl"
+import "github.com/chadsec1/decoyim/sasl"
 
 // Register the SASL mechanisms
 func Register() {

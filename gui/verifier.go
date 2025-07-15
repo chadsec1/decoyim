@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"regexp"
 
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/session/access"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/session/access"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

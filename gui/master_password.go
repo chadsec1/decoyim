@@ -1,8 +1,8 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/i18n"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/i18n"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

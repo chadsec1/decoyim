@@ -3,7 +3,7 @@ package muc
 import (
 	"io/ioutil"
 
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/session/muc/data"
 	log "github.com/sirupsen/logrus"
 	. "gopkg.in/check.v1"
 )

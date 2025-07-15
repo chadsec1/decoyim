@@ -1,7 +1,7 @@
 package roster
 
 import (
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 
 	g "gopkg.in/check.v1"
 )

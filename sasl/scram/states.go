@@ -14,7 +14,7 @@ import (
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/text/transform"
 
-	"github.com/coyim/coyim/sasl"
+	"github.com/chadsec1/decoyim/sasl"
 )
 
 type state interface {

@@ -3,8 +3,8 @@ package gui
 import (
 	"strings"
 
-	"github.com/coyim/coyim/gui/settings"
-	"github.com/coyim/coyim/ui"
+	"github.com/chadsec1/decoyim/gui/settings"
+	"github.com/chadsec1/decoyim/ui"
 )
 
 // This file contains the generic functionality for desktop notifications.

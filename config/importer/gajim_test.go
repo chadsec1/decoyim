@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 	"github.com/coyim/otr3"
 	. "gopkg.in/check.v1"
 )

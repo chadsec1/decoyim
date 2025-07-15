@@ -7,12 +7,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coyim/coyim/coylog"
-	sdata "github.com/coyim/coyim/session/data"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/interfaces"
-	xi "github.com/coyim/coyim/xmpp/interfaces"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/coylog"
+	sdata "github.com/chadsec1/decoyim/session/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/interfaces"
+	xi "github.com/chadsec1/decoyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	log "github.com/sirupsen/logrus"
 )
 

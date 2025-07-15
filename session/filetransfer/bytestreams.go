@@ -5,9 +5,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/socks5"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/socks5"
 	"golang.org/x/net/proxy"
 )
 

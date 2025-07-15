@@ -3,11 +3,11 @@ package gui
 import (
 	"time"
 
-	"github.com/coyim/coyim/text"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/text"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/session/muc/data"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

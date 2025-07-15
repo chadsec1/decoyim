@@ -3,7 +3,7 @@ package gui
 import (
 	"fmt"
 
-	"github.com/coyim/coyim/ui"
+	"github.com/chadsec1/decoyim/ui"
 	"github.com/coyim/gosx-notifier"
 )
 

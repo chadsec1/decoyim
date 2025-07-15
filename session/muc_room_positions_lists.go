@@ -3,10 +3,10 @@ package session
 import (
 	"errors"
 
-	"github.com/coyim/coyim/session/muc"
-	mucData "github.com/coyim/coyim/session/muc/data"
-	xmppData "github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/muc"
+	mucData "github.com/chadsec1/decoyim/session/muc/data"
+	xmppData "github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	log "github.com/sirupsen/logrus"
 )
 

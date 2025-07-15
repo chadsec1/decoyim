@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coyim/coyim/digests"
-	"github.com/coyim/coyim/xmpp/data"
-	xi "github.com/coyim/coyim/xmpp/interfaces"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/digests"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	xi "github.com/chadsec1/decoyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // BytestreamMethod contains the profile name for bytestreams

@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 	"github.com/hydrogen18/stalecucumber"
 )
 

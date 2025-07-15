@@ -12,15 +12,15 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/coyim/coyim/xmpp/data"
-	xe "github.com/coyim/coyim/xmpp/errors"
-	"github.com/coyim/coyim/xmpp/interfaces"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	xe "github.com/chadsec1/decoyim/xmpp/errors"
+	"github.com/chadsec1/decoyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 
-	"github.com/coyim/coyim/sasl"
-	"github.com/coyim/coyim/sasl/digestmd5"
-	"github.com/coyim/coyim/sasl/plain"
-	"github.com/coyim/coyim/sasl/scram"
+	"github.com/chadsec1/decoyim/sasl"
+	"github.com/chadsec1/decoyim/sasl/digestmd5"
+	"github.com/chadsec1/decoyim/sasl/plain"
+	"github.com/chadsec1/decoyim/sasl/scram"
 )
 
 var (

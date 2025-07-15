@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/coyim/coyim/session/access"
-	"github.com/coyim/coyim/session/filetransfer"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/session/access"
+	"github.com/chadsec1/decoyim/session/filetransfer"
+	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
 func init() {

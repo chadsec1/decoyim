@@ -14,8 +14,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/xmpp/data"
 	log "github.com/sirupsen/logrus"
 )
 

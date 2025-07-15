@@ -1,10 +1,10 @@
 package filetransfer
 
 import (
-	sdata "github.com/coyim/coyim/session/data"
-	"github.com/coyim/coyim/session/events"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	sdata "github.com/chadsec1/decoyim/session/data"
+	"github.com/chadsec1/decoyim/session/events"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // InitIQ is the hook function that will be called when we receive a file or directory transfer stream initiation IQ

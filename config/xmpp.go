@@ -3,7 +3,7 @@ package config
 import (
 	"net/url"
 
-	ournet "github.com/coyim/coyim/net"
+	ournet "github.com/chadsec1/decoyim/net"
 	"golang.org/x/net/proxy"
 )
 

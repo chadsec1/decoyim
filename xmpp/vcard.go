@@ -5,7 +5,7 @@ package xmpp
 import (
 	"fmt"
 
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
 // RequestVCard requests the user's vcard from the server. It returns a

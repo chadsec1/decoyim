@@ -1,7 +1,7 @@
 package muc
 
 import (
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // ServiceListing contains the information about a service for listing it

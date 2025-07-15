@@ -1,7 +1,7 @@
 package muc
 
 import (
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/session/muc/data"
 )
 
 type affiliationNumberType int

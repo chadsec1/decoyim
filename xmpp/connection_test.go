@@ -11,10 +11,10 @@ import (
 
 	goerr "errors"
 
-	"github.com/coyim/coyim/cache"
-	"github.com/coyim/coyim/digests"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/errors"
+	"github.com/chadsec1/decoyim/cache"
+	"github.com/chadsec1/decoyim/digests"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/errors"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"

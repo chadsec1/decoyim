@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 )
 
 func findDirOSDependent() (string, bool) {

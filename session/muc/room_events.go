@@ -3,7 +3,7 @@ package muc
 import (
 	"sync"
 
-	"github.com/coyim/coyim/session/events"
+	"github.com/chadsec1/decoyim/session/events"
 )
 
 type roomObservers struct {

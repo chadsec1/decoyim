@@ -5,9 +5,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/xmpp/data"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 	"golang.org/x/net/proxy"

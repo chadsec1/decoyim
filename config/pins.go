@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/coyim/coyim/digests"
+	"github.com/chadsec1/decoyim/digests"
 )
 
 // CertificatePinForSerialization represents a certificate pin in its serialized form

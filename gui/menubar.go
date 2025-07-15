@@ -1,6 +1,6 @@
 package gui
 
-import "github.com/coyim/coyim/i18n"
+import "github.com/chadsec1/decoyim/i18n"
 import "github.com/coyim/gotk3adapter/glibi"
 
 /*

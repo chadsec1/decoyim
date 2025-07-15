@@ -13,12 +13,12 @@ export FAKETIME=$REFERENCE_DATETIME
 export TZ=UTC
 export LC_ALL=C
 
-mkdir -p /gopath/src/github.com/coyim/coyim
-cp -r /src/* /gopath/src/github.com/coyim/coyim
-cp -r /src/.git /gopath/src/github.com/coyim/coyim
-find /gopath/src/github.com/coyim/coyim -type f -print0 | xargs -0 touch --date="$REFERENCE_DATETIME"
+mkdir -p /gopath/src/github.com/chadsec1/decoyim
+cp -r /src/* /gopath/src/github.com/chadsec1/decoyim
+cp -r /src/.git /gopath/src/github.com/chadsec1/decoyim
+find /gopath/src/github.com/chadsec1/decoyim -type f -print0 | xargs -0 touch --date="$REFERENCE_DATETIME"
 
-cd /gopath/src/github.com/coyim/coyim
+cd /gopath/src/github.com/chadsec1/decoyim
 
 export SRCUID; SRCUID=$(stat -c"%u" /src)
 export SRCGID; SRCGID=$(stat -c"%g" /src)

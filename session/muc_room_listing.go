@@ -3,9 +3,9 @@ package session
 import (
 	"sync"
 
-	"github.com/coyim/coyim/session/muc"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/muc"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 func hasIdentity(idents []data.DiscoveryIdentity, category, tp string) (name string, ok bool) {

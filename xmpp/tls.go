@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/xmpp/interfaces"
 )
 
 func certName(cert *x509.Certificate) string {

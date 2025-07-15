@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
 func mediaForPresentation(field data.FormFieldX, datas []data.BobData) [][]data.Media {

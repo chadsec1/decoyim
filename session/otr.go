@@ -3,10 +3,10 @@ package session
 import (
 	"fmt"
 
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/otrclient"
-	"github.com/coyim/coyim/session/events"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/otrclient"
+	"github.com/chadsec1/decoyim/session/events"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/otr3"
 )
 

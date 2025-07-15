@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
 
 	. "gopkg.in/check.v1"
 )

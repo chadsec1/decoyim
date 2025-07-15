@@ -1,7 +1,7 @@
 package scram
 
 import (
-	"github.com/coyim/coyim/sasl"
+	"github.com/chadsec1/decoyim/sasl"
 
 	. "gopkg.in/check.v1"
 )

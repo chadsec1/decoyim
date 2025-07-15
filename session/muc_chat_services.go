@@ -3,8 +3,8 @@ package session
 import (
 	"sync"
 
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // GetChatServices offers the chat services from a xmpp server.

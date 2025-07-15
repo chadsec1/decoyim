@@ -4,10 +4,10 @@ import (
 	"encoding/xml"
 	"errors"
 
-	"github.com/coyim/coyim/sasl"
-	"github.com/coyim/coyim/servers"
-	"github.com/coyim/coyim/xmpp/data"
-	xe "github.com/coyim/coyim/xmpp/errors"
+	"github.com/chadsec1/decoyim/sasl"
+	"github.com/chadsec1/decoyim/servers"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	xe "github.com/chadsec1/decoyim/xmpp/errors"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 

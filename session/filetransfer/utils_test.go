@@ -3,9 +3,9 @@ package filetransfer
 import (
 	"errors"
 
-	"github.com/coyim/coyim/xmpp/data"
-	xi "github.com/coyim/coyim/xmpp/interfaces"
-	"github.com/coyim/coyim/xmpp/mock"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	xi "github.com/chadsec1/decoyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/xmpp/mock"
 	. "gopkg.in/check.v1"
 )
 

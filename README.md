@@ -1,9 +1,9 @@
 # CoyIM - a safe and secure chat client
 
-[![Build Status](https://github.com/coyim/coyim/workflows/CoyIM%20CI/badge.svg)](https://github.com/coyim/coyim/actions?query=workflow%3A%22CoyIM+CI%22)
+[![Build Status](https://github.com/chadsec1/decoyim/workflows/CoyIM%20CI/badge.svg)](https://github.com/chadsec1/decoyim/actions?query=workflow%3A%22CoyIM+CI%22)
 [![Coverage Status](https://coveralls.io/repos/coyim/coyim/badge.svg?branch=main&service=github)](https://coveralls.io/github/coyim/coyim?branch=main)
 [![Translation status](https://hosted.weblate.org/widgets/coyim/-/main/svg-badge.svg)](https://hosted.weblate.org/engage/coyim/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/coyim/coyim)](https://goreportcard.com/report/github.com/coyim/coyim)
+[![Go Report Card](https://goreportcard.com/badge/github.com/chadsec1/decoyim)](https://goreportcard.com/report/github.com/chadsec1/decoyim)
 
 <p align="center">
   <img src="build/osx/mac-bundle/coyim.iconset/icon_256x256.png">

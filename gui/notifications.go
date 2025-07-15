@@ -3,7 +3,7 @@ package gui
 import (
 	"time"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

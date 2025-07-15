@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	ourNet "github.com/coyim/coyim/net"
-	"github.com/coyim/coyim/xmpp/errors"
+	ourNet "github.com/chadsec1/decoyim/net"
+	"github.com/chadsec1/decoyim/xmpp/errors"
 	"golang.org/x/net/proxy"
 )
 

@@ -1,9 +1,9 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/session"
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/session"
+	"github.com/chadsec1/decoyim/session/muc/data"
 )
 
 func getAffiliationUpdateSuccessMessage(nickname string, previousAffiliation, affiliation data.Affiliation) string {

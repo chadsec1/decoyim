@@ -1,8 +1,8 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/session"
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/session"
+	"github.com/chadsec1/decoyim/session/muc/data"
 	. "gopkg.in/check.v1"
 )
 

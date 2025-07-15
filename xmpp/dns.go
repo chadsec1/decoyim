@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"strings"
 
-	ourNet "github.com/coyim/coyim/net"
+	ourNet "github.com/chadsec1/decoyim/net"
 	"golang.org/x/net/proxy"
 )
 

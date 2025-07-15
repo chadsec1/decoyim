@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/text"
+	"github.com/chadsec1/decoyim/text"
 	"github.com/coyim/gotk3adapter/gtki"
 	"github.com/coyim/gotk3adapter/pangoi"
 )

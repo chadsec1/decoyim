@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/session/events"
+	"github.com/chadsec1/decoyim/session/events"
 )
 
 func (a *account) handleMUCErrorEvent(ev events.MUCError) {

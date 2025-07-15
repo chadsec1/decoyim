@@ -11,7 +11,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
 type rawXML []byte

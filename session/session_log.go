@@ -6,7 +6,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/coylog"
+	"github.com/chadsec1/decoyim/coylog"
 )
 
 //TODO: error

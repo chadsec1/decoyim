@@ -10,11 +10,11 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/proxy"
 
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/i18n"
-	ourNet "github.com/coyim/coyim/net"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/errors"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/i18n"
+	ourNet "github.com/chadsec1/decoyim/net"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/errors"
 	"github.com/coyim/gotk3adapter/glib_mock"
 
 	. "gopkg.in/check.v1"

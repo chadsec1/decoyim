@@ -21,12 +21,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/cache"
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/servers"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/interfaces"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/cache"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/servers"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // conn represents a connection to an XMPP server.

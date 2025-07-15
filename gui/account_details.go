@@ -9,12 +9,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/digests"
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/net"
-	"github.com/coyim/coyim/session/access"
-	"github.com/coyim/coyim/xmpp"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/digests"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/net"
+	"github.com/chadsec1/decoyim/session/access"
+	"github.com/chadsec1/decoyim/xmpp"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

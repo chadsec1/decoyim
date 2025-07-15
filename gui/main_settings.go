@@ -1,6 +1,6 @@
 package gui
 
-import "github.com/coyim/coyim/gui/settings"
+import "github.com/chadsec1/decoyim/gui/settings"
 
 type mainSettings struct {
 	displaySettings  *displaySettings

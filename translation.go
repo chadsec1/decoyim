@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/i18n"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/i18n"
 )
 
 const localDirectoryForTranslations = "./i18n"

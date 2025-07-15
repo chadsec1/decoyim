@@ -1,8 +1,8 @@
 package muc
 
 import (
-	xmppData "github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	xmppData "github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	. "gopkg.in/check.v1"
 )
 

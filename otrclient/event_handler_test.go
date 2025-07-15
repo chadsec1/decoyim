@@ -8,8 +8,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/gotk3adapter/glib_mock"
 	"github.com/coyim/otr3"
 

@@ -1,7 +1,7 @@
 package session
 
 import (
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // AutoApprove will automatically approve an incoming subscription request for the given peer

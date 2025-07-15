@@ -8,9 +8,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/config/importer"
-	"github.com/coyim/coyim/i18n"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/config/importer"
+	"github.com/chadsec1/decoyim/i18n"
 	"github.com/coyim/gotk3adapter/gtki"
 	"github.com/coyim/otr3"
 )

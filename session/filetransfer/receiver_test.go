@@ -7,9 +7,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/coyim/coyim/coylog"
-	sdata "github.com/coyim/coyim/session/data"
-	"github.com/coyim/coyim/session/mock"
+	"github.com/chadsec1/decoyim/coylog"
+	sdata "github.com/chadsec1/decoyim/session/data"
+	"github.com/chadsec1/decoyim/session/mock"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 )

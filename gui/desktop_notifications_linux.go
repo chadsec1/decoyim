@@ -9,7 +9,7 @@ import (
 	"github.com/TheCreeper/go-notify"
 	"github.com/godbus/dbus"
 
-	"github.com/coyim/coyim/ui"
+	"github.com/chadsec1/decoyim/ui"
 )
 
 const notificationFeaturesSupported = notificationStyles | notificationUrgency | notificationExpiry

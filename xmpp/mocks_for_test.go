@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/coyim/coyim/tls"
+	"github.com/chadsec1/decoyim/tls"
 )
 
 type tlsMock1 struct {

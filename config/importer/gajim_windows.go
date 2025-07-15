@@ -3,7 +3,7 @@ package importer
 import (
 	"path/filepath"
 
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 )
 
 func gajimGetConfigAndDataDirs() (configRoot, dataRoot string) {

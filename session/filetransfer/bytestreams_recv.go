@@ -8,8 +8,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/coyim/coyim/digests"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/digests"
+	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
 func init() {

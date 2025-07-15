@@ -1,8 +1,8 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/session/muc/data"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

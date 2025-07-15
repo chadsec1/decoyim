@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/coyim/coyim/gui"
+	"github.com/chadsec1/decoyim/gui"
 	. "gopkg.in/check.v1"
 )
 

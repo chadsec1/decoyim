@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coyim/coyim/digests"
-	"github.com/coyim/coyim/i18n"
+	"github.com/chadsec1/decoyim/digests"
+	"github.com/chadsec1/decoyim/i18n"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

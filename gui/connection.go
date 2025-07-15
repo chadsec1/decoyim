@@ -4,9 +4,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/xmpp/errors"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/xmpp/errors"
 )
 
 func (u *gtkUI) connectAccount(account *account) {

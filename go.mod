@@ -1,4 +1,4 @@
-module github.com/coyim/coyim
+module github.com/chadsec1/decoyim
 
 go 1.19
 

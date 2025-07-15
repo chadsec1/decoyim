@@ -3,7 +3,7 @@ package gui
 import (
 	"errors"
 
-	"github.com/coyim/coyim/i18n"
+	"github.com/chadsec1/decoyim/i18n"
 )
 
 var (

@@ -1,11 +1,11 @@
 package session
 
 import (
-	"github.com/coyim/coyim/session/access"
-	"github.com/coyim/coyim/session/data"
-	"github.com/coyim/coyim/session/filetransfer"
-	xdata "github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/access"
+	"github.com/chadsec1/decoyim/session/data"
+	"github.com/chadsec1/decoyim/session/filetransfer"
+	xdata "github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	log "github.com/sirupsen/logrus"
 )
 

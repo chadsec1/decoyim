@@ -1,9 +1,9 @@
 package session
 
 import (
-	"github.com/coyim/coyim/session/muc/data"
-	xmppData "github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/muc/data"
+	xmppData "github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 func (m *mucManager) handlersForRoomConfigurationChanges() map[int]func(jid.Bare) {

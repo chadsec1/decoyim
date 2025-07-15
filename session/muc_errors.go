@@ -1,10 +1,10 @@
 package session
 
 import (
-	"github.com/coyim/coyim/session/events"
-	"github.com/coyim/coyim/xmpp/data"
-	xmppData "github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/events"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	xmppData "github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 func (m *mucManager) publishMUCError(roomID jid.Bare, nickname string, e *data.StanzaError) {

@@ -5,7 +5,7 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 
-	"github.com/coyim/coyim/sasl"
+	"github.com/chadsec1/decoyim/sasl"
 
 	. "gopkg.in/check.v1"
 )

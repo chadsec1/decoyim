@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 

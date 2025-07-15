@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

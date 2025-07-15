@@ -4,9 +4,9 @@ import (
 	"crypto/x509"
 	"errors"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/digests"
-	ourtls "github.com/coyim/coyim/tls"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/digests"
+	ourtls "github.com/chadsec1/decoyim/tls"
 )
 
 func (u *gtkUI) verifierFor(account *account) ourtls.Verifier {

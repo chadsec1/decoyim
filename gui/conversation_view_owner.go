@@ -3,8 +3,8 @@ package gui
 import (
 	"fmt"
 
-	rosters "github.com/coyim/coyim/roster"
-	"github.com/coyim/coyim/xmpp/jid"
+	rosters "github.com/chadsec1/decoyim/roster"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

@@ -1,6 +1,6 @@
 package muc
 
-import xmppData "github.com/coyim/coyim/xmpp/data"
+import xmppData "github.com/chadsec1/decoyim/xmpp/data"
 
 // HasRoomConfigFormFieldValue description
 type HasRoomConfigFormFieldValue interface {

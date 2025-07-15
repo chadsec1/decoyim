@@ -10,7 +10,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
 func (c *conn) getCookie() data.Cookie {

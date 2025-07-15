@@ -3,9 +3,9 @@ package session
 import (
 	"encoding/xml"
 
-	"github.com/coyim/coyim/session/access"
-	"github.com/coyim/coyim/xmpp"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/session/access"
+	"github.com/chadsec1/decoyim/xmpp"
+	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
 func discoIQ(s access.Session, iq *data.ClientIQ) (ret interface{}, iqtype string, ignore bool) {

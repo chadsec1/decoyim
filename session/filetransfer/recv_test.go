@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	sdata "github.com/coyim/coyim/session/data"
-	"github.com/coyim/coyim/xmpp/data"
+	sdata "github.com/chadsec1/decoyim/session/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
 	"github.com/sirupsen/logrus/hooks/test"
 	. "gopkg.in/check.v1"
 )

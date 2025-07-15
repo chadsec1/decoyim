@@ -3,7 +3,7 @@ package session
 import (
 	"errors"
 
-	"github.com/coyim/coyim/coylog"
+	"github.com/chadsec1/decoyim/coylog"
 )
 
 var (

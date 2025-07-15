@@ -1,6 +1,6 @@
 package gui
 
-import "github.com/coyim/coyim/xmpp/jid"
+import "github.com/chadsec1/decoyim/xmpp/jid"
 
 // leaveRoom should return the context so the caller can cancel the context early if required
 func (a *account) leaveRoom(roomID jid.Bare, nickname string, onSuccess func(), onError func(error), onDone func()) {

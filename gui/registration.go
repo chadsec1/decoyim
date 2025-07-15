@@ -3,16 +3,16 @@ package gui
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/i18n"
-	ourNet "github.com/coyim/coyim/net"
-	"github.com/coyim/coyim/servers"
-	"github.com/coyim/coyim/session"
-	"github.com/coyim/coyim/tls"
-	"github.com/coyim/coyim/xmpp"
-	"github.com/coyim/coyim/xmpp/data"
-	xmppErr "github.com/coyim/coyim/xmpp/errors"
-	"github.com/coyim/coyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/i18n"
+	ourNet "github.com/chadsec1/decoyim/net"
+	"github.com/chadsec1/decoyim/servers"
+	"github.com/chadsec1/decoyim/session"
+	"github.com/chadsec1/decoyim/tls"
+	"github.com/chadsec1/decoyim/xmpp"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	xmppErr "github.com/chadsec1/decoyim/xmpp/errors"
+	"github.com/chadsec1/decoyim/xmpp/interfaces"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

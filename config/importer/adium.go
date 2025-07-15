@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 	"howett.net/plist"
 )
 

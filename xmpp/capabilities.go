@@ -6,7 +6,7 @@
 // 6121.
 package xmpp
 
-import "github.com/coyim/coyim/xmpp/data"
+import "github.com/chadsec1/decoyim/xmpp/data"
 
 type xep0115Sorter struct{ s []interface{} }
 

@@ -1,10 +1,10 @@
 package filetransfer
 
 import (
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/session/events"
-	"github.com/coyim/coyim/session/mock"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/session/events"
+	"github.com/chadsec1/decoyim/session/mock"
+	"github.com/chadsec1/decoyim/xmpp/data"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 	. "gopkg.in/check.v1"

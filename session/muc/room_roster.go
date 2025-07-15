@@ -6,10 +6,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/coyim/coyim/roster"
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/roster"
+	"github.com/chadsec1/decoyim/session/muc/data"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // OccupantPresenceInfo containts information for an occupant presence

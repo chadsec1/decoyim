@@ -3,10 +3,10 @@ package gui
 import (
 	"fmt"
 
-	"github.com/coyim/coyim/coylog"
+	"github.com/chadsec1/decoyim/coylog"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 func (a *account) getRoomView(roomID jid.Bare) (*roomView, bool) {

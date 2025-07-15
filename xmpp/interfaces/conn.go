@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/coyim/coyim/cache"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/cache"
+	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
 // Has represents any object that has a connection and can give access to it

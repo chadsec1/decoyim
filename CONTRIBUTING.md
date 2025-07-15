@@ -40,8 +40,8 @@ Installing these requirements differs on each system.
 1. Get the code, and navigate to the source directory.
 
    ```sh
-   go get -d -u github.com/coyim/coyim
-   cd $(go env GOPATH)/src/github.com/coyim/coyim
+   go get -d -u github.com/chadsec1/decoyim
+   cd $(go env GOPATH)/src/github.com/chadsec1/decoyim
    ```
 
 1. Download dependencies, and build the code and the gui.

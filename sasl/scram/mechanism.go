@@ -9,7 +9,7 @@ import (
 	"crypto/sha512"
 	"hash"
 
-	"github.com/coyim/coyim/sasl"
+	"github.com/chadsec1/decoyim/sasl"
 )
 
 var (

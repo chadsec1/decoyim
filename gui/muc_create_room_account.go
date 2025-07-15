@@ -3,8 +3,8 @@ package gui
 import (
 	"time"
 
-	"github.com/coyim/coyim/session/muc"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/muc"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // createInstantRoom IS SAFE to be called from the UI thread

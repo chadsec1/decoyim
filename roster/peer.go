@@ -5,8 +5,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // Status contains the status information for a specific resource

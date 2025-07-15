@@ -3,8 +3,8 @@ package mock
 import (
 	"time"
 
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	. "gopkg.in/check.v1"
 )
 

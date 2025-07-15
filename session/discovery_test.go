@@ -1,8 +1,8 @@
 package session
 
 import (
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/xmpp/data"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 	. "gopkg.in/check.v1"

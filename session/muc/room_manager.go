@@ -3,7 +3,7 @@ package muc
 import (
 	"sync"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // RoomManager contains information about each room that is currently active for a user

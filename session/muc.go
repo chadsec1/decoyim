@@ -4,13 +4,13 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/session/events"
-	"github.com/coyim/coyim/session/muc"
-	"github.com/coyim/coyim/session/muc/data"
-	xmppData "github.com/coyim/coyim/xmpp/data"
-	xi "github.com/coyim/coyim/xmpp/interfaces"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/session/events"
+	"github.com/chadsec1/decoyim/session/muc"
+	"github.com/chadsec1/decoyim/session/muc/data"
+	xmppData "github.com/chadsec1/decoyim/xmpp/data"
+	xi "github.com/chadsec1/decoyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -5,11 +5,11 @@ import (
 	"encoding/xml"
 	"errors"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/session/access"
-	"github.com/coyim/coyim/xmpp/data"
-	xi "github.com/coyim/coyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/session/access"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	xi "github.com/chadsec1/decoyim/xmpp/interfaces"
 )
 
 var errChannelClosed = errors.New("channel closed")

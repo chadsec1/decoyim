@@ -3,10 +3,10 @@ package gui
 import (
 	"time"
 
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/session"
-	"github.com/coyim/coyim/session/muc"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/session"
+	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/coyim/gotk3adapter/gtki"
 	log "github.com/sirupsen/logrus"
 )

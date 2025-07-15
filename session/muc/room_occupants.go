@@ -1,8 +1,8 @@
 package muc
 
 import (
-	"github.com/coyim/coyim/session/muc/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/session/muc/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // RoomOccupantItem contains information related with occupants to be configured in a room with a specific affiliation

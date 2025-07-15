@@ -1,6 +1,6 @@
 package gui
 
-import "github.com/coyim/coyim/coylog"
+import "github.com/chadsec1/decoyim/coylog"
 
 type withLog interface {
 	Log() coylog.Logger

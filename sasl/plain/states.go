@@ -1,6 +1,6 @@
 package plain
 
-import "github.com/coyim/coyim/sasl"
+import "github.com/chadsec1/decoyim/sasl"
 
 type state interface {
 	challenge(string, string) (state, sasl.Token, error)

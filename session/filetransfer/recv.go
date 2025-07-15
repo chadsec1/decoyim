@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	sdata "github.com/coyim/coyim/session/data"
-	"github.com/coyim/coyim/xmpp/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	sdata "github.com/chadsec1/decoyim/session/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // This contains all valid file transfer methods. A higher value is better, and if possible, we will choose the method with the highest value

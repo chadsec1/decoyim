@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/coyim/coyim/i18n"
+	"github.com/chadsec1/decoyim/i18n"
 	"github.com/coyim/gotk3adapter/glib_mock"
 
 	. "gopkg.in/check.v1"

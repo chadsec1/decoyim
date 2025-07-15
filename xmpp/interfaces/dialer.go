@@ -1,10 +1,10 @@
 package interfaces
 
 import (
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/servers"
-	"github.com/coyim/coyim/tls"
-	"github.com/coyim/coyim/xmpp/data"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/servers"
+	"github.com/chadsec1/decoyim/tls"
+	"github.com/chadsec1/decoyim/xmpp/data"
 	"golang.org/x/net/proxy"
 )
 

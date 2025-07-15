@@ -8,12 +8,12 @@ import (
 	"github.com/coyim/gotk3adapter/gdki"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/i18n"
-	coyroster "github.com/coyim/coyim/roster"
-	"github.com/coyim/coyim/session/muc"
-	"github.com/coyim/coyim/session/muc/data"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/i18n"
+	coyroster "github.com/chadsec1/decoyim/roster"
+	"github.com/chadsec1/decoyim/session/muc"
+	"github.com/chadsec1/decoyim/session/muc/data"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/gotk3adapter/glibi"
 	"github.com/coyim/gotk3adapter/gtki"
 )

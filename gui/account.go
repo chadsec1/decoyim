@@ -6,13 +6,13 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/coylog"
-	"github.com/coyim/coyim/i18n"
-	"github.com/coyim/coyim/session/access"
-	"github.com/coyim/coyim/session/events"
-	"github.com/coyim/coyim/xmpp/interfaces"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/i18n"
+	"github.com/chadsec1/decoyim/session/access"
+	"github.com/chadsec1/decoyim/session/events"
+	"github.com/chadsec1/decoyim/xmpp/interfaces"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/gotk3adapter/gtki"
 )
 

@@ -3,7 +3,7 @@ package gui
 import (
 	"sync"
 
-	"github.com/coyim/coyim/config"
+	"github.com/chadsec1/decoyim/config"
 )
 
 type mainConfiguration struct {

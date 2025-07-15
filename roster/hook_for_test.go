@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/coyim/coyim/i18n"
+	"github.com/chadsec1/decoyim/i18n"
 	"github.com/coyim/gotk3adapter/glib_mock"
 	log "github.com/sirupsen/logrus"
 	gocheck "gopkg.in/check.v1"

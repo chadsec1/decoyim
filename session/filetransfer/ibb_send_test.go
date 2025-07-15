@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	sdata "github.com/coyim/coyim/session/data"
-	"github.com/coyim/coyim/xmpp/data"
+	sdata "github.com/chadsec1/decoyim/session/data"
+	"github.com/chadsec1/decoyim/xmpp/data"
 	. "gopkg.in/check.v1"
 )
 

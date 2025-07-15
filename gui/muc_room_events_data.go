@@ -3,9 +3,9 @@ package gui
 import (
 	"time"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 
-	"github.com/coyim/coyim/session/muc/data"
+	"github.com/chadsec1/decoyim/session/muc/data"
 )
 
 type selfOccupantRemovedEvent struct{}

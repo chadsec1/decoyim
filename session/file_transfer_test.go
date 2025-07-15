@@ -1,9 +1,9 @@
 package session
 
 import (
-	"github.com/coyim/coyim/otrclient"
-	"github.com/coyim/coyim/xmpp/jid"
-	"github.com/coyim/coyim/xmpp/mock"
+	"github.com/chadsec1/decoyim/otrclient"
+	"github.com/chadsec1/decoyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/mock"
 	"github.com/sirupsen/logrus/hooks/test"
 	. "gopkg.in/check.v1"
 )

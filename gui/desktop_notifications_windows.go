@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/coyim/coyim/ui"
+	"github.com/chadsec1/decoyim/ui"
 )
 
 const notificationFeaturesSupported = notificationStyles

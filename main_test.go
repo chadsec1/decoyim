@@ -8,9 +8,9 @@ import (
 	"os"
 	"runtime/pprof"
 
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/gui"
-	"github.com/coyim/coyim/gui/settings"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/gui"
+	"github.com/chadsec1/decoyim/gui/settings"
 	"github.com/coyim/gotk3adapter/gdk_mock"
 	"github.com/coyim/gotk3adapter/glib_mock"
 	"github.com/coyim/gotk3adapter/glibi"

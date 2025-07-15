@@ -6,7 +6,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/otr3"
 )
 

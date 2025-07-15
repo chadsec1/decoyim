@@ -1,8 +1,8 @@
 package otrclient
 
 import (
-	"github.com/coyim/coyim/config"
-	"github.com/coyim/coyim/xmpp/jid"
+	"github.com/chadsec1/decoyim/config"
+	"github.com/chadsec1/decoyim/xmpp/jid"
 )
 
 // AuthorizeFingerprintCmd is a command that represents a request to authorize a fingerprint

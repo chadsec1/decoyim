@@ -1,6 +1,6 @@
 package muc
 
-import "github.com/coyim/coyim/xmpp/jid"
+import "github.com/chadsec1/decoyim/xmpp/jid"
 
 // RoomConfigFieldJidMultiValue contains information of the value of the jid multi field
 type RoomConfigFieldJidMultiValue struct {

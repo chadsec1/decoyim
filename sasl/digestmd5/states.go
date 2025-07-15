@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coyim/coyim/sasl"
+	"github.com/chadsec1/decoyim/sasl"
 )
 
 type digestState interface {
