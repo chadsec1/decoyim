@@ -34,6 +34,10 @@ You can:
 - Import Jabber/OTR accounts from other clients (like Pidgin via `~/.purple`)
 - Skip it and import later via `Accounts → Import`
 
+<p align="left">
+  <img src="images/main_window.png">
+</p>
+
 
 ---
 
