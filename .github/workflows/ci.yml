@@ -1,10 +1,10 @@
-name: CoyIM CI
+name: DecoyIM CI
 
 on: [push]
 
 jobs:
   test-linux:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     strategy:
       fail-fast: false
@@ -122,7 +122,7 @@ jobs:
   notify-test:
     name: Notify on success or failure of test
     needs: [test-linux, test-osx, test-win]
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     if: always()
     steps:
       - name: checkout
@@ -146,7 +146,7 @@ jobs:
   build-release-linux:
     name: Build release (Linux)
     needs: test-linux
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     if: startsWith( github.ref, 'refs/tags/')
 
     steps:
@@ -316,16 +316,16 @@ jobs:
       - name: Build release
         run: make -C ci/ make-gui-for-release-win
       - name: Create zip file
-        run: cd release && 7z a -tzip coyim.zip *
+        run: cd release && 7z a -tzip decoyim.zip *
       - name: Create checksum for zip-file
-        run: openssl dgst -sha256 release/coyim.zip >> release/coyim.zip_checksum
+        run: openssl dgst -sha256 release/decoyim.zip >> release/decoyim.zip_checksum
       - name: Archive build artifacts
         uses: actions/upload-artifact@v2
         with:
           name: dist-win
           path: |
-            ${{ github.workspace }}/release/coyim.zip
-            ${{ github.workspace }}/release/coyim.zip_checksum
+            ${{ github.workspace }}/release/decoyim.zip
+            ${{ github.workspace }}/release/decoyim.zip_checksum
           retention-days: 5
           if-no-files-found: error
 
@@ -361,7 +361,7 @@ jobs:
         run: |
           mkdir -p win_installer
           cd win_installer
-          7z x -y -r -tzip ../dist-win/coyim.zip
+          7z x -y -r -tzip ../dist-win/decoyim.zip
       - name: Get the current tag
         id: current_tag
         run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
@@ -371,20 +371,20 @@ jobs:
           script-file: build/windows/installer_definition.nsi
           arguments: "/V3 /NOCD /DVERSION=${{ steps.current_tag.outputs.VERSION }}"
       - name: Create checksum for installer file
-        run: openssl dgst -sha256 "CoyIM installer.exe" >> "CoyIM installer.exe_checksum"
+        run: openssl dgst -sha256 "DecoyIM installer.exe" >> "DecoyIM installer.exe_checksum"
       - name: Archive installer artifacts
         uses: actions/upload-artifact@v2
         with:
           name: installer-win
           path: |
-            CoyIM installer.exe
-            CoyIM installer.exe_checksum
+            DecoyIM installer.exe
+            DecoyIM installer.exe_checksum
           retention-days: 5
           if-no-files-found: error
 
   create-release-from-tag:
     name: Create release from tag
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     if: startsWith( github.ref, 'refs/tags/v' )
     outputs:
       upload-url: ${{ steps.create_release.outputs.upload_url }}
@@ -404,7 +404,7 @@ jobs:
   upload-release-linux:
     name: Upload release (Linux)
     needs: [build-release-linux, create-release-from-tag]
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/download-artifact@v2
@@ -415,8 +415,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: dist-linux/coyim_linux_amd64
-          asset_name: coyim_linux_amd64
+          asset_path: dist-linux/decoyim_linux_amd64
+          asset_name: decoyim_linux_amd64
           asset_content_type: application/octet-stream
       - name: Upload Linux build_info
         uses: actions/upload-release-asset@v1
@@ -425,7 +425,7 @@ jobs:
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
           asset_path: dist-linux/build_info_linux_amd64
-          asset_name: coyim_linux_amd64_build_info
+          asset_name: decoyim_linux_amd64_build_info
           asset_content_type: text/plain
       - name: Upload Linux checksum
         uses: actions/upload-release-asset@v1
@@ -433,14 +433,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: dist-linux/coyim_linux_amd64_checksum
-          asset_name: coyim_linux_amd64_checksum
+          asset_path: dist-linux/decoyim_linux_amd64_checksum
+          asset_name: decoyim_linux_amd64_checksum
           asset_content_type: text/plain
 
   upload-release-win:
     name: Upload release (Windows)
     needs: [build-release-win, build-windows-installer, create-release-from-tag]
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/download-artifact@v2
@@ -453,8 +453,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: dist-win/coyim.zip
-          asset_name: "CoyIM (Windows).zip"
+          asset_path: dist-win/decoyim.zip
+          asset_name: "DecoyIM (Windows).zip"
           asset_content_type: application/zip
       - name: Upload Windows zip checksum
         uses: actions/upload-release-asset@v1
@@ -462,8 +462,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: dist-win/coyim.zip_checksum
-          asset_name: "CoyIM (Windows).zip_checksum"
+          asset_path: dist-win/decoyim.zip_checksum
+          asset_name: "DecoyIM (Windows).zip_checksum"
           asset_content_type: text/plain
       - name: Upload Windows Installer
         uses: actions/upload-release-asset@v1
@@ -471,8 +471,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: "installer-win/CoyIM installer.exe"
-          asset_name: "CoyIM Installer.exe"
+          asset_path: "installer-win/DecoyIM installer.exe"
+          asset_name: "DecoyIM Installer.exe"
           asset_content_type: application/octet-stream
       - name: Upload Windows Installer checksum
         uses: actions/upload-release-asset@v1
@@ -480,14 +480,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: "installer-win/CoyIM installer.exe_checksum"
-          asset_name: "CoyIM Installer.exe_checksum"
+          asset_path: "installer-win/DecoyIM installer.exe_checksum"
+          asset_name: "DecoyIM Installer.exe_checksum"
           asset_content_type: text/plain
 
   upload-release-osx:
     name: Upload release (OS X)
     needs: [build-release-osx, create-release-from-tag]
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/download-artifact@v2
@@ -498,8 +498,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: dist-osx/coyim_darwin_amd64
-          asset_name: coyim_darwin_amd64
+          asset_path: dist-osx/decoyim_darwin_amd64
+          asset_name: decoyim_darwin_amd64
           asset_content_type: application/octet-stream
       - name: Upload OS X Disk Image
         uses: actions/upload-release-asset@v1
@@ -507,8 +507,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: dist-osx/coyim.dmg
-          asset_name: coyim.dmg
+          asset_path: dist-osx/decoyim.dmg
+          asset_name: decoyim.dmg
           asset_content_type: application/octet-stream
       - name: Upload OS X checksum for DMG
         uses: actions/upload-release-asset@v1
@@ -516,8 +516,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: dist-osx/coyim.dmg_checksum
-          asset_name: coyim.dmg_checksum
+          asset_path: dist-osx/decoyim.dmg_checksum
+          asset_name: decoyim.dmg_checksum
           asset_content_type: text/plain
       - name: Upload OS X checksum for binary
         uses: actions/upload-release-asset@v1
@@ -525,6 +525,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create-release-from-tag.outputs.upload-url }}
-          asset_path: dist-osx/coyim_darwin_amd64_checksum
-          asset_name: coyim_darwin_amd64_checksum
+          asset_path: dist-osx/decoyim_darwin_amd64_checksum
+          asset_name: decoyim_darwin_amd64_checksum
           asset_content_type: text/plain
