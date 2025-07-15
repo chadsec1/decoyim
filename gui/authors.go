@@ -2,6 +2,7 @@ package gui
 
 func authors() []string {
 	return []string{
+		"ChadSec",
 		"Adam Langley",
 		"Allan Nordhøy  -  epost@anotheragency.no",
 		"Bruce Leidl  -  bruce@subgraph.com",
