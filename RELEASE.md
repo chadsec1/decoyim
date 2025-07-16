@@ -18,8 +18,8 @@ Instructions for creating a release
 ```
 - Wait for Github Actions to finish building and publishing all binaries to the Github Release page
 - Add release notes to the Github Release page
-- Create a new release note entry on the CoyIM website
-- Create a new blog post about the release on the CoyIM website
+- Create a new release note entry on the DecoyIM website
+- Create a new blog post about the release on the DecoyIM website
 - Add the new release version for download to the website
 - Build and push reproducibility signatures from as many as possible (see [REPRODUCIBILITY](REPRODUCIBILITY.md) for instructions)
 - Tweet from @coyproject about the new release
