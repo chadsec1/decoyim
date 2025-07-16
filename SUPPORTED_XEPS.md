@@ -1,5 +1,5 @@
 
-These XEPs are fully or partially supported by CoyIM:
+These XEPs are fully or partially supported by DecoyIM:
 - XEP-0004 - Data Forms
 - XEP-0030 - Service Discovery
 - XEP-0045 - Multi-User Chat
