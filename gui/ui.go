@@ -25,9 +25,9 @@ import (
 )
 
 const (
-	programName        = "CoyIM"
-	applicationID      = "im.coy.CoyIM"
-	localizationDomain = "coy"
+	programName        = "DecoyIM"
+	applicationID      = "im.decoy.DecoyIM"
+	localizationDomain = "decoy"
 )
 
 type gtkUI struct {
@@ -500,9 +500,9 @@ func (u *gtkUI) mainWindow() {
 
 func (u *gtkUI) setupSystemTray() {
 	si, _ := g.gtk.StatusIconNewFromPixbuf(coyimIcon.GetPixbuf())
-	si.SetTooltipText("CoyIM")
+	si.SetTooltipText("DecoyIM")
 	si.SetHasTooltip(true)
-	si.SetTitle("CoyIM")
+	si.SetTitle("DecoyIM")
 	si.SetVisible(true)
 	_ = si.Connect("activate", func() {
 		if u.window.IsActive() {

@@ -52,7 +52,7 @@ func ensureDesktopFileInstalled() {
 }
 
 func generateDesktopFile(debug bool) string {
-	name := "CoyIM"
+	name := "DecoyIM"
 	path, _ := osext.Executable()
 	icon := iconFileName()
 	revision := coyimVersion

@@ -24,7 +24,7 @@ func (dn *desktopNotifications) show(jid, from, message string) error {
 	summary, body := dn.format(from, message, false)
 
 	notification := Notification{
-		Title:   "CoyIM",
+		Title:   "DecoyIM",
 		Message: summary + body,
 		Icon:    coyimIcon.getPath(),
 	}

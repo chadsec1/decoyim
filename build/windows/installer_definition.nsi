@@ -1,6 +1,6 @@
 !include "MUI2.nsh"
 
-!define NAME "CoyIM"
+!define NAME "DecoyIM"
 
 Name "${NAME}"
 OutFile "${NAME} Installer.exe"
@@ -34,7 +34,7 @@ InstallDir "$ProgramFiles\${Name}"
 
 !insertmacro MUI_LANGUAGE "English"
 
-Section "CoyIM"
+Section "DecoyIM"
   SetOutPath "$INSTDIR"
 
   SectionIn 1 RO

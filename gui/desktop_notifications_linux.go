@@ -70,7 +70,7 @@ func (dn *desktopNotifications) show(jid, from, message string) error {
 	}
 
 	notification := notify.Notification{
-		AppName:    "CoyIM",
+		AppName:    "DecoyIM",
 		AppIcon:    "decoyim",
 		Timeout:    dn.expiration(),
 		Hints:      dn.hints(),
