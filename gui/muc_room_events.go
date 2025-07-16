@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/session/events"
 	"github.com/chadsec1/decoyim/session/muc/data"
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -107,7 +107,7 @@ type roomViewObserver struct {
 type roomViewSubscribers struct {
 	observers     []*roomViewObserver
 	observersLock sync.Mutex
-	log           coylog.Logger
+	log           decoylog.Logger
 }
 
 func (v *roomView) newRoomViewSubscribers() *roomViewSubscribers {

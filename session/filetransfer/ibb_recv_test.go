@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	sdata "github.com/chadsec1/decoyim/session/data"
 	"github.com/chadsec1/decoyim/session/mock"
 	"github.com/chadsec1/decoyim/xmpp/data"
@@ -21,10 +21,10 @@ type IBBReceiverSuite struct{}
 var _ = Suite(&IBBReceiverSuite{})
 
 type mockHasLog struct {
-	l coylog.Logger
+	l decoylog.Logger
 }
 
-func (m *mockHasLog) Log() coylog.Logger {
+func (m *mockHasLog) Log() decoylog.Logger {
 	return m.l
 }
 

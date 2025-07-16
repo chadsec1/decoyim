@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/otrclient"
 	"github.com/chadsec1/decoyim/roster"
 	"github.com/chadsec1/decoyim/session/access"
@@ -282,7 +282,7 @@ func (*SessionMock) UpdateOccupantRole(jid.Bare, string, mdata.Role, string) (<-
 }
 
 // Log is the implementation for session interface
-func (*SessionMock) Log() coylog.Logger {
+func (*SessionMock) Log() decoylog.Logger {
 	return nil
 }
 

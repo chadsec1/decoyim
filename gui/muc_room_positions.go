@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/chadsec1/decoyim/session/muc/data"
@@ -25,7 +25,7 @@ type roomPositionsView struct {
 	content     gtki.Box    `gtk-widget:"content"`
 	applyButton gtki.Button `gtk-widget:"apply-button"`
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (v *roomView) newRoomPositionsView() *roomPositionsView {

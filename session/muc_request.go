@@ -3,7 +3,7 @@ package session
 import (
 	"fmt"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	xi "github.com/chadsec1/decoyim/xmpp/interfaces"
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -33,7 +33,7 @@ type mucRequest struct {
 	errorChannel      chan error
 	onResponse        func(response []byte) error
 	addIgnorePresence func(presence string)
-	log               coylog.Logger
+	log               decoylog.Logger
 }
 
 func (m *mucManager) newMUCRoomRequest(roomID jid.Bare, requestType mucRequestType, onResponse func(response []byte) error) *mucRequest {

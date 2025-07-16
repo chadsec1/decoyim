@@ -7,7 +7,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	sdata "github.com/chadsec1/decoyim/session/data"
 	"github.com/chadsec1/decoyim/session/mock"
 	log "github.com/sirupsen/logrus"
@@ -55,10 +55,10 @@ func (s *ReceiverSuite) Test_receiver_simpleReceiptWorks(c *C) {
 type sessionMockWithCustomLog struct {
 	mock.SessionMock
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
-func (s *sessionMockWithCustomLog) Log() coylog.Logger {
+func (s *sessionMockWithCustomLog) Log() decoylog.Logger {
 	return s.log
 }
 

@@ -3,7 +3,7 @@ package session
 import (
 	"errors"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 )
 
 var (
@@ -37,7 +37,7 @@ func mucRequestErrorMessage(err error) string {
 type mucRequestError struct {
 	err     error
 	message string
-	log     coylog.Logger
+	log     decoylog.Logger
 }
 
 func (r *mucRequest) newMUCRoomRequestError(err error) *mucRequestError {

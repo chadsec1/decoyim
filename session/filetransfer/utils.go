@@ -6,7 +6,7 @@ import (
 	"errors"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/session/access"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	xi "github.com/chadsec1/decoyim/xmpp/interfaces"
@@ -23,17 +23,17 @@ type hasConnectionAndConfig interface {
 
 type hasConnectionAndConfigAndLog interface {
 	hasConnectionAndConfig
-	coylog.Has
+	decoylog.Has
 }
 
 type hasConfigAndLog interface {
 	config.Has
-	coylog.Has
+	decoylog.Has
 }
 
 type canSendIQAndHasLog interface {
 	access.CanSendIQ
-	coylog.Has
+	decoylog.Has
 }
 
 type canSendIQAndHasLogAndConnection interface {
@@ -42,7 +42,7 @@ type canSendIQAndHasLogAndConnection interface {
 }
 
 type canSendIQErrorAndHasLog interface {
-	coylog.Has
+	decoylog.Has
 	access.CanSendIQ
 }
 

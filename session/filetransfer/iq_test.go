@@ -1,7 +1,7 @@
 package filetransfer
 
 import (
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/session/events"
 	"github.com/chadsec1/decoyim/session/mock"
 	"github.com/chadsec1/decoyim/xmpp/data"
@@ -17,12 +17,12 @@ var _ = Suite(&IQSuite{})
 type mockForInitIQ struct {
 	*mock.SessionMock
 
-	log coylog.Logger
+	log decoylog.Logger
 
 	publishEventValue interface{}
 }
 
-func (m *mockForInitIQ) Log() coylog.Logger {
+func (m *mockForInitIQ) Log() decoylog.Logger {
 	return m.log
 }
 

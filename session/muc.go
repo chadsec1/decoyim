@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/session/events"
 	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/chadsec1/decoyim/session/muc/data"
@@ -15,7 +15,7 @@ import (
 )
 
 type mucManager struct {
-	log          coylog.Logger
+	log          decoylog.Logger
 	conn         func() xi.Conn
 	publishEvent func(ev interface{})
 
@@ -32,7 +32,7 @@ type mucManager struct {
 	roomConfigChangesHandlersLock sync.Mutex
 }
 
-func newMUCManager(log coylog.Logger, conn func() xi.Conn, publishEvent func(ev interface{})) *mucManager {
+func newMUCManager(log decoylog.Logger, conn func() xi.Conn, publishEvent func(ev interface{})) *mucManager {
 	m := &mucManager{
 		log:              log,
 		conn:             conn,

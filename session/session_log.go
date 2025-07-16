@@ -6,7 +6,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 )
 
 //TODO: error
@@ -28,6 +28,6 @@ func openLogFile(logFile string) io.Writer {
 }
 
 // Log is the implementation for session interface
-func (s *session) Log() coylog.Logger {
+func (s *session) Log() decoylog.Logger {
 	return s.log
 }

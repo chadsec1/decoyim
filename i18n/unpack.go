@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -112,7 +112,7 @@ func (u *unpacker) copyAllTranslationFiles() {
 type unpacker struct {
 	dir   string
 	guard string
-	log   coylog.Logger
+	log   decoylog.Logger
 }
 
 func (u *unpacker) unpackTranslationFiles() {

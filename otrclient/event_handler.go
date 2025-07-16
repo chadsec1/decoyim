@@ -3,7 +3,7 @@ package otrclient
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/otr3"
@@ -26,7 +26,7 @@ type EventHandler struct {
 	delayedMessageSent chan<- int
 	delays             map[int]bool
 	pendingDelays      int
-	Log                coylog.Logger
+	Log                decoylog.Logger
 }
 
 // ConsumeDelayedState returns whether the given trace has been delayed or not, blanking out that status as a side effect

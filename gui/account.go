@@ -7,7 +7,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session/access"
 	"github.com/chadsec1/decoyim/session/events"
@@ -38,7 +38,7 @@ type account struct {
 	askingForPassword bool
 	cachedPassword    string
 
-	log coylog.Logger
+	log decoylog.Logger
 
 	events chan interface{}
 

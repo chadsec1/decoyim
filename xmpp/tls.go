@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/xmpp/interfaces"
 )
 
@@ -52,7 +52,7 @@ func GetTLSVersion(tlsState tls.ConnectionState) string {
 	return version
 }
 
-func printTLSDetails(ll coylog.Logger, tlsState tls.ConnectionState) {
+func printTLSDetails(ll decoylog.Logger, tlsState tls.ConnectionState) {
 	ll.WithField("version", GetTLSVersion(tlsState)).Info("  SSL/TLS/version")
 	ll.WithField("cipherSuite", GetCipherSuiteName(tlsState)).Info("  Cipher suite")
 }

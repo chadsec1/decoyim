@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	log "github.com/sirupsen/logrus"
 
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -198,7 +198,7 @@ func (v *mucCreateRoomView) show() {
 }
 
 // log IS SAFE to be called from the UI thread
-func (v *mucCreateRoomView) log(ca *account, roomID jid.Bare) coylog.Logger {
+func (v *mucCreateRoomView) log(ca *account, roomID jid.Bare) decoylog.Logger {
 	return ca.log.WithFields(log.Fields{
 		"room":  roomID,
 		"where": "mucCreateRoomView",

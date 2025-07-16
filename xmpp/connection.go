@@ -22,7 +22,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/chadsec1/decoyim/cache"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/servers"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	"github.com/chadsec1/decoyim/xmpp/interfaces"
@@ -66,7 +66,7 @@ type conn struct {
 
 	channelBinding []byte
 
-	log coylog.Logger
+	log decoylog.Logger
 
 	outerTLS bool
 

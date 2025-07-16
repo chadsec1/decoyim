@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/coyim/gotk3adapter/gtki"
 )
@@ -21,7 +21,7 @@ type roomViewCloseWindowConfirm struct {
 	cancelButton   gtki.Button      `gtk-widget:"room-close-cancel-button"`
 	confirmButton  gtki.Button      `gtk-widget:"room-close-confirm-button"`
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (v *roomView) newRoomViewCloseWindowConfirm() *roomViewCloseWindowConfirm {

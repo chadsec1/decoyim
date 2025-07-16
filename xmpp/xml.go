@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	log "github.com/sirupsen/logrus"
 )
@@ -50,7 +50,7 @@ func xmlEscape(s string) string {
 }
 
 // Scan XML token stream to find next Element (start or end)
-func nextElement(p *xml.Decoder, ll coylog.Logger) (xml.Token, error) {
+func nextElement(p *xml.Decoder, ll decoylog.Logger) (xml.Token, error) {
 	for {
 		t, err := p.Token()
 		if err != nil {
@@ -79,7 +79,7 @@ func nextElement(p *xml.Decoder, ll coylog.Logger) (xml.Token, error) {
 }
 
 // Scan XML token stream to find next StartElement.
-func nextStart(p *xml.Decoder, log coylog.Logger) (xml.StartElement, error) {
+func nextStart(p *xml.Decoder, log decoylog.Logger) (xml.StartElement, error) {
 	for {
 		t, err := nextElement(p, log)
 		if err != nil {
@@ -95,7 +95,7 @@ func nextStart(p *xml.Decoder, log coylog.Logger) (xml.StartElement, error) {
 // Scan XML token stream for next element and save into val.
 // If val == nil, allocate new element based on proto map.
 // Either way, return val.
-func next(c xmlConn, log coylog.Logger) (xml.Name, interface{}, error) {
+func next(c xmlConn, log decoylog.Logger) (xml.Name, interface{}, error) {
 	elem, err := nextElement(c.In(), log)
 	if err != nil {
 		return xml.Name{}, nil, err

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/otrclient"
 	"github.com/chadsec1/decoyim/roster"
 	"github.com/chadsec1/decoyim/session/access"
@@ -341,8 +341,8 @@ func (m *MockedSession) UpdateOccupantRole(v1 jid.Bare, v2 string, v3 mdata.Role
 }
 
 // Log is the implementation for session interface
-func (m *MockedSession) Log() coylog.Logger {
-	return m.Called().Get(0).(coylog.Logger)
+func (m *MockedSession) Log() decoylog.Logger {
+	return m.Called().Get(0).(decoylog.Logger)
 }
 
 // LeaveRoom is the implementation for session interface

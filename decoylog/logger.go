@@ -1,4 +1,4 @@
-package coylog
+package decoylog
 
 import (
 	"context"

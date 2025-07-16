@@ -1,7 +1,7 @@
 package mock
 
 import (
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/servers"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	"github.com/chadsec1/decoyim/xmpp/interfaces"
@@ -61,7 +61,7 @@ func (*Dialer) SetShouldConnectTLS(bool) {}
 func (*Dialer) SetShouldSendALPN(bool) {}
 
 // SetLogger is an implementation of the Dialer interface
-func (*Dialer) SetLogger(coylog.Logger) {}
+func (*Dialer) SetLogger(decoylog.Logger) {}
 
 // SetKnown is an implementation of the Dialer interface
 func (*Dialer) SetKnown(*servers.Server) {}

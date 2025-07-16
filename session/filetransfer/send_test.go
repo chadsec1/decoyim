@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	sdata "github.com/chadsec1/decoyim/session/data"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	xi "github.com/chadsec1/decoyim/xmpp/interfaces"
@@ -162,11 +162,11 @@ func (s *SendSuite) Test_calculateAvailableSendOptions(c *C) {
 
 type mockHasConnectionAndConfigAndLog struct {
 	c    xi.Conn
-	l    coylog.Logger
+	l    decoylog.Logger
 	conf *config.Account
 }
 
-func (m *mockHasConnectionAndConfigAndLog) Log() coylog.Logger {
+func (m *mockHasConnectionAndConfigAndLog) Log() decoylog.Logger {
 	return m.l
 }
 

@@ -3,7 +3,7 @@ package gui
 import (
 	"fmt"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/chadsec1/decoyim/session/muc/data"
@@ -49,7 +49,7 @@ type roomViewRosterInfo struct {
 	onReset   *callbacksSet
 	onRefresh *callbacksSet
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (r *roomViewRoster) newRoomViewRosterInfo() *roomViewRosterInfo {

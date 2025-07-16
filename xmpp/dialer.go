@@ -6,7 +6,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/servers"
 	"github.com/chadsec1/decoyim/tls"
 	"github.com/chadsec1/decoyim/xmpp/data"
@@ -38,7 +38,7 @@ type dialer struct {
 	verifier       tls.Verifier
 	tlsConnFactory tls.Factory
 
-	log coylog.Logger
+	log decoylog.Logger
 
 	// Have we dialed with Direct TLS or not
 	outerTLS bool
@@ -106,7 +106,7 @@ func (d *dialer) ServerAddress() string {
 	return d.serverAddress
 }
 
-func (d *dialer) SetLogger(l coylog.Logger) {
+func (d *dialer) SetLogger(l decoylog.Logger) {
 	d.log = l
 }
 
@@ -170,7 +170,7 @@ func (d *dialer) Dial() (interfaces.Conn, error) {
 	return d.setupStream(conn)
 }
 
-func withFieldSafely(log coylog.Logger, fieldname string, value interface{}) coylog.Logger {
+func withFieldSafely(log decoylog.Logger, fieldname string, value interface{}) decoylog.Logger {
 	if log == nil {
 		return nil
 	}

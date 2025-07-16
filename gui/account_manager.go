@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/otrclient"
 	rosters "github.com/chadsec1/decoyim/roster"
 	"github.com/chadsec1/decoyim/session/access"
@@ -25,7 +25,7 @@ type accountManager struct {
 
 	accountEncryption otrclient.CommandManager
 
-	log coylog.Logger
+	log decoylog.Logger
 
 	sessionFactory sessions.Factory
 	dialerFactory  interfaces.DialerFactory
@@ -33,7 +33,7 @@ type accountManager struct {
 	lock sync.RWMutex
 }
 
-func (m *accountManager) init(c otrclient.CommandManager, log coylog.Logger) {
+func (m *accountManager) init(c otrclient.CommandManager, log decoylog.Logger) {
 	m.events = make(chan interface{}, 10)
 	m.accounts = make([]*account, 0, 5)
 	m.contacts = make(map[*account]*rosters.List)

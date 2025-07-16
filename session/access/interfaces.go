@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/otrclient"
 	"github.com/chadsec1/decoyim/roster"
 	sdata "github.com/chadsec1/decoyim/session/data"
@@ -155,7 +155,7 @@ type Session interface {
 	CanSendIQ
 	HasSymmetricKey
 	Publisher
-	coylog.Has
+	decoylog.Has
 	config.Has
 	config.HasApplication
 	xi.Has

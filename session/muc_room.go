@@ -3,7 +3,7 @@ package session
 import (
 	"errors"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -33,7 +33,7 @@ type hasRoomContext struct {
 	roomID          jid.Bare
 	foundIdentities []data.DiscoveryIdentity
 	foundFeatures   []string
-	log             coylog.Logger
+	log             decoylog.Logger
 }
 
 func (rc *hasRoomContext) checkIfRoomExists(wantRoomInfo chan<- *muc.RoomListing) {

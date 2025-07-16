@@ -10,7 +10,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/proxy"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	ourNet "github.com/chadsec1/decoyim/net"
 	"github.com/chadsec1/decoyim/xmpp/data"
@@ -125,7 +125,7 @@ func (s *TCPSuite) Test_newTCPConn_usesDirectProxyIfNoneGiven(c *C) {
 	c.Assert(d.proxy, Equals, proxy.Direct)
 }
 
-func testLogger() coylog.Logger {
+func testLogger() decoylog.Logger {
 	l := log.New()
 	l.SetOutput(ioutil.Discard)
 	return l

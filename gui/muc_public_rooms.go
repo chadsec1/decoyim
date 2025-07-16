@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -168,7 +168,7 @@ func (prv *mucPublicRoomsView) initDefaults() {
 	prv.joinButton.SetSensitive(false)
 }
 
-func (prv *mucPublicRoomsView) log() coylog.Logger {
+func (prv *mucPublicRoomsView) log() decoylog.Logger {
 	l := prv.u.hasLog.log
 	if prv.currentAccount != nil {
 		l = prv.currentAccount.log

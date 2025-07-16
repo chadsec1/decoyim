@@ -3,7 +3,7 @@ package gui
 import (
 	"github.com/chadsec1/decoyim/i18n"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/coyim/gotk3adapter/gdki"
 	"github.com/coyim/gotk3adapter/gtki"
@@ -80,7 +80,7 @@ type roomConfigPage struct {
 	onShowValidationErrors func()
 	onHideValidationErrors func()
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (c *mucRoomConfigComponent) newConfigPage(pageID mucRoomConfigPageID, parent gtki.Window) *roomConfigPage {

@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session"
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -60,7 +60,7 @@ type mucCreateRoomViewForm struct {
 	updateAutoJoinValue      func(bool)
 	updateConfigureRoomValue func(bool)
 
-	log func(*account, jid.Bare) coylog.Logger
+	log func(*account, jid.Bare) decoylog.Logger
 }
 
 func (v *mucCreateRoomView) newCreateRoomForm() *mucCreateRoomViewForm {

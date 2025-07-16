@@ -9,7 +9,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/xmpp/data"
 )
 
@@ -43,7 +43,7 @@ func ibbWaitForCancel(ctx *recvContext) {
 }
 
 // IbbOpen is the hook function that will be called when we receive an ibb open IQ
-func IbbOpen(s coylog.Has, stanza *data.ClientIQ) (ret interface{}, iqtype string, ignore bool) {
+func IbbOpen(s decoylog.Has, stanza *data.ClientIQ) (ret interface{}, iqtype string, ignore bool) {
 	var tag data.IBBOpen
 	if err := xml.NewDecoder(bytes.NewBuffer(stanza.Query)).Decode(&tag); err != nil {
 		s.Log().WithError(err).Warn("Failed to parse IBB open")
@@ -65,7 +65,7 @@ func IbbOpen(s coylog.Has, stanza *data.ClientIQ) (ret interface{}, iqtype strin
 	return data.EmptyReply{}, "", false
 }
 
-func ibbParseXMLData(s coylog.Has, dt []byte) (tag data.IBBData, ctx *recvContext, ictx *ibbContext, ret interface{}, iqtype string, ignore bool) {
+func ibbParseXMLData(s decoylog.Has, dt []byte) (tag data.IBBData, ctx *recvContext, ictx *ibbContext, ret interface{}, iqtype string, ignore bool) {
 	if err := xml.NewDecoder(bytes.NewBuffer(dt)).Decode(&tag); err != nil {
 		s.Log().WithError(err).Warn("Failed to parse IBB data")
 		return tag, nil, nil, iqErrorNotAcceptable, "error", false
@@ -92,7 +92,7 @@ func ibbParseXMLData(s coylog.Has, dt []byte) (tag data.IBBData, ctx *recvContex
 	return tag, ctx, ictx, nil, "", false
 }
 
-func ibbOnData(s coylog.Has, body []byte) (ret interface{}, iqtype string, ignore bool) {
+func ibbOnData(s decoylog.Has, body []byte) (ret interface{}, iqtype string, ignore bool) {
 	tag, ctx, ictx, ret, iqtype, ignore := ibbParseXMLData(s, body)
 	if ret != nil {
 		return ret, iqtype, ignore
@@ -136,17 +136,17 @@ func ibbOnData(s coylog.Has, body []byte) (ret interface{}, iqtype string, ignor
 }
 
 // IbbData is the hook function that will be called when we receive an ibb data IQ
-func IbbData(s coylog.Has, stanza *data.ClientIQ) (interface{}, string, bool) {
+func IbbData(s decoylog.Has, stanza *data.ClientIQ) (interface{}, string, bool) {
 	return ibbOnData(s, stanza.Query)
 }
 
 // IbbMessageData is the hook function that will be called when we receive a message containing an ibb data
-func IbbMessageData(s coylog.Has, stanza *data.ClientMessage, ext *data.Extension) {
+func IbbMessageData(s decoylog.Has, stanza *data.ClientMessage, ext *data.Extension) {
 	_, _, _ = ibbOnData(s, []byte(ext.Body))
 }
 
 // IbbClose is the hook function that will be called when we receive an ibb close IQ
-func IbbClose(s coylog.Has, stanza *data.ClientIQ) (ret interface{}, iqtype string, ignore bool) {
+func IbbClose(s decoylog.Has, stanza *data.ClientIQ) (ret interface{}, iqtype string, ignore bool) {
 	var tag data.IBBClose
 	if err := xml.NewDecoder(bytes.NewBuffer(stanza.Query)).Decode(&tag); err != nil {
 		s.Log().WithError(err).Warn("Failed to parse IBB close")

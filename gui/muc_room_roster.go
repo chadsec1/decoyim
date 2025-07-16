@@ -8,7 +8,7 @@ import (
 	"github.com/coyim/gotk3adapter/gdki"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	coyroster "github.com/chadsec1/decoyim/roster"
 	"github.com/chadsec1/decoyim/session/muc"
@@ -59,7 +59,7 @@ type roomViewRoster struct {
 
 	model gtki.TreeStore
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (v *roomView) newRoomViewRoster() *roomViewRoster {

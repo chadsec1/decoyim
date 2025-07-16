@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/xmpp/jid"
 	"github.com/coyim/otr3"
 )
@@ -48,11 +48,11 @@ type conversationManager struct {
 	onCreateEH OnEventHandlerCreation
 
 	account string
-	log     coylog.Logger
+	log     decoylog.Logger
 }
 
 // NewConversationManager returns a new ConversationManager
-func NewConversationManager(builder ConversationBuilder, sender Sender, account string, onCreateEH OnEventHandlerCreation, l coylog.Logger) ConversationManager {
+func NewConversationManager(builder ConversationBuilder, sender Sender, account string, onCreateEH OnEventHandlerCreation, l decoylog.Logger) ConversationManager {
 	return &conversationManager{
 		conversations: make(map[string]*conversation),
 		builder:       builder,

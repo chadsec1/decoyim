@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session/muc/data"
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -28,7 +28,7 @@ type roomViewLobby struct {
 
 	errorNotifications canNotifyErrors
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (v *roomView) newRoomViewLobby() *roomViewLobby {

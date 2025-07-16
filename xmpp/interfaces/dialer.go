@@ -1,7 +1,7 @@
 package interfaces
 
 import (
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/servers"
 	"github.com/chadsec1/decoyim/tls"
 	"github.com/chadsec1/decoyim/xmpp/data"
@@ -23,7 +23,7 @@ type Dialer interface {
 	SetServerAddress(v string)
 	SetShouldConnectTLS(bool)
 	SetShouldSendALPN(bool)
-	SetLogger(coylog.Logger)
+	SetLogger(decoylog.Logger)
 	SetKnown(*servers.Server)
 }
 

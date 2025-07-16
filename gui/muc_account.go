@@ -3,7 +3,7 @@ package gui
 import (
 	"fmt"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	log "github.com/sirupsen/logrus"
 
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -42,7 +42,7 @@ type roomOpController struct {
 	onSuccess func()
 	onError   func(error)
 	onDone    func()
-	log       coylog.Logger
+	log       decoylog.Logger
 }
 
 func (a *account) newRoomOpController(op string, cb roomOpCallback, onSuccess func(), onError func(error), onDone func()) *roomOpController {
@@ -101,7 +101,7 @@ type accountRoomOpContext struct {
 	errorChannel   chan error
 	cancelChannel  chan bool
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (a *account) newAccountRoomOpContext(op string, roomID jid.Bare, callback roomOpCallback, onSuccess func(), onError func(error), onDone func()) *accountRoomOpContext {

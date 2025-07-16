@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/net/proxy"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	ournet "github.com/chadsec1/decoyim/net"
 	"github.com/chadsec1/decoyim/servers"
 	ourtls "github.com/chadsec1/decoyim/tls"
@@ -390,7 +390,7 @@ func (md *mockDialer) SetShouldConnectTLS(v bool) {
 func (md *mockDialer) SetShouldSendALPN(v bool) {
 	md.argShouldSendALPN = v
 }
-func (md *mockDialer) SetLogger(coylog.Logger)  {}
+func (md *mockDialer) SetLogger(decoylog.Logger)  {}
 func (md *mockDialer) SetKnown(*servers.Server) {}
 
 func (s *ConnectionPolicySuite) Test_ConnectionPolicy_Connect_succeedsAndDials(c *C) {

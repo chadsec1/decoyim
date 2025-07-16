@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/net/proxy"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	ournet "github.com/chadsec1/decoyim/net"
 	"github.com/chadsec1/decoyim/servers"
 	ourtls "github.com/chadsec1/decoyim/tls"
@@ -38,7 +38,7 @@ type ConnectionPolicy struct {
 
 	torState ournet.TorState
 
-	Log coylog.Logger
+	Log decoylog.Logger
 }
 
 func (p *ConnectionPolicy) initTorState() {

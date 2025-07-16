@@ -1,7 +1,7 @@
 package gui
 
 import (
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session/muc"
 	"github.com/chadsec1/decoyim/xmpp/jid"
@@ -165,7 +165,7 @@ func (v *mucJoinRoomView) onServiceUnavailable(a *account, roomID jid.Bare) {
 	})
 }
 
-func (v *mucJoinRoomView) log() coylog.Logger {
+func (v *mucJoinRoomView) log() decoylog.Logger {
 	l := v.u.hasLog.log
 
 	ca := v.roomFormComponent.currentAccount()

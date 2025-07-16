@@ -3,7 +3,7 @@ package gui
 import (
 	"time"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session"
 	"github.com/chadsec1/decoyim/session/muc"
@@ -47,7 +47,7 @@ type mucRoomConfigComponent struct {
 	onValidationErrors   *callbacksSet
 	onNoValidationErrors *callbacksSet
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (u *gtkUI) newMUCRoomConfigComponent(account *account, data *roomConfigData, setCurrentPage func(indexPage mucRoomConfigPageID), parent gtki.Window) *mucRoomConfigComponent {

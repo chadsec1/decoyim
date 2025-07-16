@@ -6,7 +6,7 @@ import (
 	"net"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	log "github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
@@ -20,14 +20,14 @@ var _ = Suite(&BytestreamsSuite{})
 
 type mockConfigAndLog struct {
 	c *config.Account
-	l coylog.Logger
+	l decoylog.Logger
 }
 
 func (m *mockConfigAndLog) GetConfig() *config.Account {
 	return m.c
 }
 
-func (m *mockConfigAndLog) Log() coylog.Logger {
+func (m *mockConfigAndLog) Log() decoylog.Logger {
 	return m.l
 }
 

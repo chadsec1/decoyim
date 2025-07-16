@@ -13,7 +13,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/chadsec1/decoyim/config"
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/otrclient"
 	"github.com/chadsec1/decoyim/roster"
@@ -38,7 +38,7 @@ const (
 
 type session struct {
 	conn xi.Conn
-	log  coylog.Logger
+	log  decoylog.Logger
 	r    *roster.List
 
 	muc *mucManager

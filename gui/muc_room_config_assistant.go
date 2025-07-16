@@ -3,7 +3,7 @@ package gui
 import (
 	"fmt"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	"github.com/chadsec1/decoyim/i18n"
 	"github.com/chadsec1/decoyim/session"
 	"github.com/chadsec1/decoyim/session/muc"
@@ -33,7 +33,7 @@ type roomConfigAssistant struct {
 
 	assistant gtki.Assistant `gtk-widget:"room-config-assistant"`
 
-	log coylog.Logger
+	log decoylog.Logger
 }
 
 func (u *gtkUI) newRoomConfigAssistant(data *roomConfigData) *roomConfigAssistant {

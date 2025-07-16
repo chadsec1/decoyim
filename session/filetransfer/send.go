@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chadsec1/decoyim/coylog"
+	"github.com/chadsec1/decoyim/decoylog"
 	sdata "github.com/chadsec1/decoyim/session/data"
 	"github.com/chadsec1/decoyim/xmpp/data"
 	"github.com/chadsec1/decoyim/xmpp/interfaces"
@@ -153,7 +153,7 @@ func (ctx *sendContext) onDecline() {
 	}
 }
 
-func notifyUserThatSendStarted(method string, s coylog.Has, file, peer string) {
+func notifyUserThatSendStarted(method string, s decoylog.Has, file, peer string) {
 	s.Log().WithFields(log.Fields{
 		"file":   file,
 		"peer":   peer,
