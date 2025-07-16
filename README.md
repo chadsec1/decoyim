@@ -18,6 +18,8 @@ We aim to make encrypted chat accessible and safe, even for high-risk users.
 
 OTR3 code has been audited; the rest hasn't. Use with caution if you're a high-risk target.
 
+All binary releases are compiled on Github servers, and not our machines. This ensure highest security in event developers are compromised
+
 ---
 
 ## 🧪 Quick Start
