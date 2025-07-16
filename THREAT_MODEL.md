@@ -1,14 +1,14 @@
 # Threat Model
 
-This is a living document. The goal is to describe the kinds of threats that CoyIM will protect against, and which ones
+This is a living document. The goal is to describe the kinds of threats that DecoyIM will protect against, and which ones
 it will not. This initial version is fairly bare. We hope to expand it in the future. This is certainly not exhaustive
-yet. It is important to point out that this Threat Model is for the CoyIM software. It is _not_ a threat model for XMPP,
+yet. It is important to point out that this Threat Model is for the DecoyIM software. It is _not_ a threat model for XMPP,
 nor for TLS, Tor or OTR, although we sometimes reference these issues in this document.
 
 
 ## Assets
 
-The assets are the things that CoyIM tries to protect. In this threat model, encryption keys and passwords are _not_
+The assets are the things that DecoyIM tries to protect. In this threat model, encryption keys and passwords are _not_
 assets. They do not have any intrinsic value - instead, they are only as valuable as what they are actually protecting.
 
 - The contact list
@@ -39,11 +39,11 @@ break in to the server, etc.
 - The ISP (or inbetween network provider) of a server
 - Someone with physical access to the computer of the user
 - Someone with software access to the computer of the user
-- Someone with a remote exploit against CoyIM
+- Someone with a remote exploit against DecoyIM
 - Build servers
 - Download servers
 - The ISP (or inbetween network provider) of download servers
-- The CoyIM developers
+- The DecoyIM developers
 
 
 ## Attacks
@@ -105,12 +105,12 @@ attacks:
       - By using physical implants or modifying programs on disk, any threat can be realized.
   - Someone with software access to the computer of the user
       - By using software implants or other kinds of malware, any threat can be realized.
-  - Someone with a remote exploit against CoyIM
-      - There are several possible vectors for remotely exploiting CoyIM. The two most likely scenarios are sending
+  - Someone with a remote exploit against DecoyIM
+      - There are several possible vectors for remotely exploiting DecoyIM. The two most likely scenarios are sending
       crafted network packets, or sending crafted XMPP packets. In a worst case scenario, this could result in remote
-      code execution inside of CoyIM, leading to the same kind of access as the previous points. Milder exploits could
+      code execution inside of DecoyIM, leading to the same kind of access as the previous points. Milder exploits could
       lead to crashes, which would be a denial of service attack. There's also the possibility of information disclosure
-      attacks, where an exploit could lead CoyIM to send information it shouldn't reveal.  If an exploit exists in the
+      attacks, where an exploit could lead DecoyIM to send information it shouldn't reveal.  If an exploit exists in the
       cryptography code, it's also possible that this could lead to breaks in the security properties (CIA).
   - Build servers
       - A build server can insert hostile code in the software during compilation, which can be used to execute any threat.
@@ -119,8 +119,8 @@ attacks:
   - The ISP (or inbetween network provider) of download servers
       - If the network connection to download servers is not protected, hostile code can be inserted into the binary 
       for any purpose.
-  - The CoyIM developers
-      - The CoyIM developers could insert hostile code in the source code for any threat. They could also distribute
+  - The DecoyIM developers
+      - The DecoyIM developers could insert hostile code in the source code for any threat. They could also distribute
       binaries that are different than the ones created by the build servers, containing hostile code not visible
       in the public source code.
 
@@ -314,7 +314,7 @@ Various other threats:
 
 ## Mitigations
 
-In general, mitigations can fall into several different categories. Some are things that we can address in CoyIM. Others
+In general, mitigations can fall into several different categories. Some are things that we can address in DecoyIM. Others
 are things we have to accept because that is what the XMPP protocol requires. In some cases, we transfer the risk to
 other parties. Finally, we have to accept some issues, since they might not have any good solutions.
 
@@ -331,7 +331,7 @@ category.
 
 #### Server-based attacks
 
-Since XMPP and CoyIM relies on server software, many attacks are possible if you have access to such a server. These
+Since XMPP and DecoyIM relies on server software, many attacks are possible if you have access to such a server. These
 attacks are put into this category.
 
 
@@ -360,7 +360,7 @@ Any other possibility of attack are put here, as the catch-all for anything else
 
 ### Specific mitigations for categories of threats
 
-CoyIM contains a large amount of mitigations against various specific or general types of attacks. Some only protect
+DecoyIM contains a large amount of mitigations against various specific or general types of attacks. Some only protect
 against one single attack, while others make it possible to avoid whole categories of attacks. Not all mitigations are
 covered here - we will only cover the most important ones.
 
@@ -372,7 +372,7 @@ that Tor is vulnerable to a global passive adversary, for example.
 #### Network-based attacks
 
 The network can see a lot of different things, and in many cases will also be able to modify data. Finally, the network
-can execute denial of service attacks. CoyIM primarily mitigates these risks by using TLS for all connections, and by
+can execute denial of service attacks. DecoyIM primarily mitigates these risks by using TLS for all connections, and by
 using Tor as much as possible. The encryption of both Tor and TLS stop both attacks against the confidentiality of the
 content, but also against the integrity. Finally, denial of service attacks also becomes harder to mount, since Tor
 increases the difficulty in targeting a specific user.
@@ -397,18 +397,18 @@ In terms of impersonating attacks, the server is a real problem as well. In orde
 for verification of identities using fingerprint verification or SMP. If these features are used as part of a good opsec
 strategy with all contacts, it will serve to protect against impersonation.
 
-Correlation attacks are possible for a server to execute. However, CoyIM implements two different mitigations to avoid
+Correlation attacks are possible for a server to execute. However, DecoyIM implements two different mitigations to avoid
 this attack. The first one is based on randomizing connection and reconnection intervals between accounts, and the
 second uses different Tor circuits for any account, which means that the connections for the different accounts look
 like they come from different places. Finally, some XMPP clients use the same resource for different accounts. This is
 usually not enough information to reliably correlate two accounts, but it will reduce the anonymity set. For this and
-other reasons, CoyIM randomizes the resource on every connection.
+other reasons, DecoyIM randomizes the resource on every connection.
 
 Finally, the server for a user can find out location information about the user, including the IP address. As a
-mitigation against this, CoyIM will use Tor for all connections, if possible. By default, it will not connect without
-Tor available, to protect against user mistakes. In general, CoyIM will fail _closed_, not _open_.
+mitigation against this, DecoyIM will use Tor for all connections, if possible. By default, it will not connect without
+Tor available, to protect against user mistakes. In general, DecoyIM will fail _closed_, not _open_.
 
-CoyIM cannot protect against Denial of Service attacks from servers.
+DecoyIM cannot protect against Denial of Service attacks from servers.
 
 
 #### Peer-based attacks
@@ -425,7 +425,7 @@ order to protect the downloads, these are managed using TLS connections to the s
 checksums which can give a small amount of additional security.
 
 In order to protect against builds with injected code of some kind, we use reproducible builds to reduce the trust
-necessary in the build systems. Finally, the CoyIM project is open source, and both the code itself and the recipes for
+necessary in the build systems. Finally, the DecoyIM project is open source, and both the code itself and the recipes for
 building the binary distributions are publicly available and easily inspected. In this way, we mitigate the risk that
 the project developers could do something hostile. Together, reproducible builds and open source should minimize the
 amount of trust in the project team needed. The open source distribution also makes it possible for technically minded
@@ -434,30 +434,30 @@ people to build their own binaries, to minimize the trust needed in the build an
 
 #### Local privilege attacks
 
-In general, local privilege attacks are very hard to defend against. CoyIM tries to do a few things, but none of them
+In general, local privilege attacks are very hard to defend against. DecoyIM tries to do a few things, but none of them
 will ever be completely effective. Perhaps the most important mitigation is that the configuration file will be
-encrypted, so that when CoyIM is not running, an attacker can't get access to the content of this file, even with local
-privilege. Of course, once CoyIM starts, the information is decrypted and put into memory.
+encrypted, so that when DecoyIM is not running, an attacker can't get access to the content of this file, even with local
+privilege. Of course, once DecoyIM starts, the information is decrypted and put into memory.
 
-The OTR library that CoyIM uses also prevents timing side channel attacks, and locks information to specific memory
+The OTR library that DecoyIM uses also prevents timing side channel attacks, and locks information to specific memory
 pages, which also prevents certain local attacks.
 
 
 #### Other attacks
 
 One attack that is not covered above is the one about finding out information about a specific user. This attack is
-mitigated by CoyIM being implemented in such a way that it leaks a minimum of information through features of XMPP and
+mitigated by DecoyIM being implemented in such a way that it leaks a minimum of information through features of XMPP and
 resources.
 
 The risk of vulnerabilities in the code base are mitigated by the choice of Golang as the programming language. This
 reduces the risk of many types of vulnerabilities, and specifically makes remote execution vulnerabilities much less
-likely. The CoyIM project also tries to reduce the complexity of the implementation by carefully choosing and rejecting
+likely. The DecoyIM project also tries to reduce the complexity of the implementation by carefully choosing and rejecting
 features. In this way, the attack surface is kept as small as possible. The decision to avoid HTML, CSS and JavaScript
 for the implementation of the user interface is based on the same need to reduce complexity. Since embedded browser
 functionality usually has similar problems as the full browser, it can be a significant risk to use this
 functionality. We decided to mitigate this risk by not using these technologies.
 
-A common method to attack users is to convince them to click links. While this doesn't involve a direct attack on CoyIM,
+A common method to attack users is to convince them to click links. While this doesn't involve a direct attack on DecoyIM,
 we still made the decision to minimize the amounts of links in the application, to avoid the risk that users would be
 fooled into clicking hostile links, which would open up attacks on other applications.
 
@@ -469,13 +469,13 @@ only against that mitigation. In some cases, this leads to greater threats in on
 up new "territory". If this happens, you have to balance this threat against the original threat which the mitigation
 tries to address.
 
-In CoyIM, there exists one new threat that is a side-effect of a mitigation, and two threats that are still possible
+In DecoyIM, there exists one new threat that is a side-effect of a mitigation, and two threats that are still possible
 against the confidentiality. All three of these threats are related to end-to-end encryption.
 
 In general, end-to-end encryption can protect the confidentiality and integrity of messages, but if an attacker gets
 hold of any encryption keys involved in the conversation, they can decrypt or modify content. However, there exists two
 special cases - one where an attacker collects cipher text, and then at some later point gets access to the current
-encryption material from a user. However, CoyIM actually mitigates against this threat by its use of OTR. OTR provides a
+encryption material from a user. However, DecoyIM actually mitigates against this threat by its use of OTR. OTR provides a
 property known as forward secrecy, which continuously ratchets key material forward and throws away the old
 material. Since this process is one-way, having the encryption material at one point will not allow the attacker to get
 eaerlier encryption material.
@@ -486,10 +486,10 @@ decrypting. However, once again, OTR mitigates this attack by continuously creat
 mixing that into the process. In this way, old key material will not be sufficient to decrypt newer cipher texts. This
 property is called post-compromise security (and sometimes backwards secrecy).
 
-Now, one threat that CoyIM can't easily protect against are cryptographically enhanced impersonation attacks. This
+Now, one threat that DecoyIM can't easily protect against are cryptographically enhanced impersonation attacks. This
 happens if an attacker manages to steal your long-lived keys and then uses that to talk to another individual. Because
 of the long-lived keys, the other user will see a person that seems to have access to your private keys. Thus, the trust
-from that person will likely be increased. CoyIM tries to mitigate this risk by making it harder for an attacker to
+from that person will likely be increased. DecoyIM tries to mitigate this risk by making it harder for an attacker to
 access the long-term keys.
 
 Finally, when using authenticated end-to-end encryption, it is often possible for an attacker (which is also the person
@@ -497,7 +497,7 @@ you're talking to) to prove to someone else that you said something. In a naive 
 over content, this can be clearly seen. You could simply show the signature and the content to someone else, and they
 would know that you said it. Or, you could not take back saying it. This property is called non-repudiation. It's
 something a very useful property - for example for digital contracts. But for conversations it goes against our
-intuitions, and it's not great that introducing more security could lead to this kind of attack. In CoyIM, this is also
+intuitions, and it's not great that introducing more security could lead to this kind of attack. In DecoyIM, this is also
 mitigated by our use of OTR, which is designed to be deniable. What that means is that after the messages have been
 sent, someone else could in theory forge these messages. That means that there's no proof that any single private key is
 responsible for the conversation.
@@ -505,9 +505,9 @@ responsible for the conversation.
 
 ## Summary
 
-CoyIM has a fairly extensive threat model. It tries to protect against many kinds of risks, but due to the limitations
+DecoyIM has a fairly extensive threat model. It tries to protect against many kinds of risks, but due to the limitations
 of XMPP, not everything is possible. This document should make it quite clear exactly where the limits for the
-protection from CoyIM are. One final thing to note is that this document is based on the default configuration of
-CoyIM. You can reduce this security, and by doing that expose yourself to more threats than those described here, but
-the fundamental design idea for CoyIM is that you don't have to do anything to increase your security. This threat model
-matches the top level of protection CoyIM can give you.
+protection from DecoyIM are. One final thing to note is that this document is based on the default configuration of
+DecoyIM. You can reduce this security, and by doing that expose yourself to more threats than those described here, but
+the fundamental design idea for DecoyIM is that you don't have to do anything to increase your security. This threat model
+matches the top level of protection DecoyIM can give you.
