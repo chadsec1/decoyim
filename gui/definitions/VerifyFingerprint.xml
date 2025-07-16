@@ -45,7 +45,7 @@
       <action-widget response="yes">button_verify</action-widget>
     </action-widgets>
     <style>
-      <class name="coyim"/>
+      <class name="decoyim"/>
     </style>
   </object>
 </interface>

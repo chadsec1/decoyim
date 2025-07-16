@@ -1164,9 +1164,9 @@ func getActualRootFolder() string {
 func (i *icon) getPath() string {
 	iconPath := filepath.Join(getActualRootFolder(), i.path)
 	if fileNotFound(iconPath) {
-		tmpIconPath := filepath.Join(filepath.Join(os.TempDir(), "coyim"), i.name)
+		tmpIconPath := filepath.Join(filepath.Join(os.TempDir(), "decoyim"), i.name)
 		if fileNotFound(tmpIconPath) {
-			_ = os.MkdirAll(filepath.Join(os.TempDir(), "coyim"), 0750)
+			_ = os.MkdirAll(filepath.Join(os.TempDir(), "decoyim"), 0750)
 			bytes, _ := i.get()
 			_ = ioutil.WriteFile(tmpIconPath, bytes, 0600)
 			log.WithFields(log.Fields{

@@ -52,7 +52,7 @@ func (s *FileSuite) Test_findConfigFile_returnsBasicPathIfNoFileFound(c *C) {
 	SystemConfigDir = func() string { return dir }
 
 	res := findConfigFile("")
-	c.Assert(res, Equals, filepath.Join(dir, "coyim", "accounts.json"))
+	c.Assert(res, Equals, filepath.Join(dir, "decoyim", "accounts.json"))
 }
 
 func (s *FileSuite) Test_findConfigFile_returnsTheFilanameIfGiven(c *C) {
@@ -70,11 +70,11 @@ func (s *FileSuite) Test_findConfigFile_returnsEncryptedFileIfExists(c *C) {
 
 	SystemConfigDir = func() string { return dir }
 
-	ensureDir(filepath.Join(dir, "coyim"), 0700)
-	logPotentialError(c, ioutil.WriteFile(filepath.Join(dir, "coyim", "accounts.json.enc"), []byte("hello"), 0666))
+	ensureDir(filepath.Join(dir, "decoyim"), 0700)
+	logPotentialError(c, ioutil.WriteFile(filepath.Join(dir, "decoyim", "accounts.json.enc"), []byte("hello"), 0666))
 
 	res := findConfigFile("")
-	c.Assert(res, Equals, filepath.Join(dir, "coyim", "accounts.json.enc"))
+	c.Assert(res, Equals, filepath.Join(dir, "decoyim", "accounts.json.enc"))
 }
 
 func (s *FileSuite) Test_findConfigFile_returnsEncryptedBackupFileIfExists(c *C) {
@@ -87,11 +87,11 @@ func (s *FileSuite) Test_findConfigFile_returnsEncryptedBackupFileIfExists(c *C)
 
 	SystemConfigDir = func() string { return dir }
 
-	ensureDir(filepath.Join(dir, "coyim"), 0700)
-	logPotentialError(c, ioutil.WriteFile(filepath.Join(dir, "coyim", "accounts.json.enc.000~"), []byte("hello"), 0666))
+	ensureDir(filepath.Join(dir, "decoyim"), 0700)
+	logPotentialError(c, ioutil.WriteFile(filepath.Join(dir, "decoyim", "accounts.json.enc.000~"), []byte("hello"), 0666))
 
 	res := findConfigFile("")
-	c.Assert(res, Equals, filepath.Join(dir, "coyim", "accounts.json.enc"))
+	c.Assert(res, Equals, filepath.Join(dir, "decoyim", "accounts.json.enc"))
 }
 
 func (s *FileSuite) Test_readFileOrTemporaryBackup_readsBackupFileIfOriginalFileIsEmpty(c *C) {

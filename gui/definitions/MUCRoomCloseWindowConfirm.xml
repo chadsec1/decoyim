@@ -141,7 +141,7 @@
       </object>
     </child>
     <style>
-      <class name="coyim"/>
+      <class name="decoyim"/>
     </style>
   </object>
 </interface>

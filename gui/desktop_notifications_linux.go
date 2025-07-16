@@ -31,7 +31,7 @@ func (dn *desktopNotifications) hints() map[string]interface{} {
 	hints := make(map[string]interface{})
 
 	hints[notify.HintTransient] = false
-	hints[notify.HintActionIcons] = "coyim"
+	hints[notify.HintActionIcons] = "decoyim"
 	hints[notify.HintDesktopEntry] = "coyim.desktop"
 	hints[notify.HintCategory] = notify.ClassImReceived
 
@@ -71,7 +71,7 @@ func (dn *desktopNotifications) show(jid, from, message string) error {
 
 	notification := notify.Notification{
 		AppName:    "CoyIM",
-		AppIcon:    "coyim",
+		AppIcon:    "decoyim",
 		Timeout:    dn.expiration(),
 		Hints:      dn.hints(),
 		ReplacesID: dn.notifications[jid],

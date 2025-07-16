@@ -456,7 +456,7 @@
       <action-widget response="accept">button_perm_ok</action-widget>
     </action-widgets>
     <style>
-      <class name="coyim"/>
+      <class name="decoyim"/>
     </style>
   </object>
 </interface>

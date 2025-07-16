@@ -46,7 +46,7 @@
       <action-widget response="ok" default="true">btn-import</action-widget>
     </action-widgets>
     <style>
-      <class name="coyim"/>
+      <class name="decoyim"/>
     </style>
   </object>
 </interface>

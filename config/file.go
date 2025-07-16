@@ -81,5 +81,5 @@ func readFileOrTemporaryBackup(name string) (data []byte, e error) {
 }
 
 func configDir() string {
-	return filepath.Join(SystemConfigDir(), "coyim")
+	return filepath.Join(SystemConfigDir(), "decoyim")
 }

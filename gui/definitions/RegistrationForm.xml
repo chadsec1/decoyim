@@ -51,7 +51,7 @@
       <action-widget response="apply" default="true">btn-register</action-widget>
     </action-widgets>
     <style>
-      <class name="coyim"/>
+      <class name="decoyim"/>
     </style>
   </object>
 </interface>

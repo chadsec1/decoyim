@@ -153,7 +153,7 @@
       <action-widget response="ok">button_submit</action-widget>
     </action-widgets>
     <style>
-      <class name="coyim"/>
+      <class name="decoyim"/>
     </style>
   </object>
 </interface>

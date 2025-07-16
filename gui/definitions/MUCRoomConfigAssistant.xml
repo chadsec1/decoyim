@@ -12,7 +12,7 @@
     <signal name="prepare" handler="on_page_changed" swapped="no"/>
     <signal name="apply" handler="on_apply" swapped="no"/>
     <style>
-      <class name="coyim"/>
+      <class name="decoyim"/>
     </style>
   </object>
 </interface>
