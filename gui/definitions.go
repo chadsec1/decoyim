@@ -184,7 +184,7 @@ var _escData = map[string]*_escFile{
 
 	"/definitions/AccountDetails.xml": {
 		local:   "definitions/AccountDetails.xml",
-		size:    39293,
+		size:    39295,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtMaXN0U3RvcmUiIGlkPSJwcm94aWVzLW1vZGVs
@@ -841,13 +841,13 @@ ICAgICAgPHByb3BlcnR5IG5hbWU9ImV4cGFuZCI+RmFsc2U8L3Byb3BlcnR5PgogICAgICAgICAgICA8
 cHJvcGVydHkgbmFtZT0iZmlsbCI+VHJ1ZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBu
 YW1lPSJwb3NpdGlvbiI+MTwvcHJvcGVydHk+CiAgICAgICAgICA8L3BhY2tpbmc+CiAgICAgICAgPC9j
 aGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0eWxlPgogICAgICA8Y2xhc3Mg
-bmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
+bmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/AccountRegistration.xml": {
 		local:   "definitions/AccountRegistration.xml",
-		size:    3856,
+		size:    3858,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtBc3Npc3RhbnQiIGlkPSJhc3Npc3RhbnQiPgog
@@ -913,14 +913,14 @@ ICAgIDwvb2JqZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgICAgPHN0eWxlPgogICAgICAgICAgPGNs
 YXNzIG5hbWU9InJlZ2lzdHJhdGlvbiIvPgogICAgICAgIDwvc3R5bGU+CiAgICAgIDwvb2JqZWN0Pgog
 ICAgICA8cGFja2luZz4KICAgICAgICA8cHJvcGVydHkgbmFtZT0icGFnZS10eXBlIj5HVEtfQVNTSVNU
 QU5UX1BBR0VfU1VNTUFSWTwvcHJvcGVydHk+CiAgICAgIDwvcGFja2luZz4KICAgIDwvY2hpbGQ+CiAg
-ICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVj
-dD4KPC9pbnRlcmZhY2U+Cg==
+ICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2Jq
+ZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
 	"/definitions/AddContact.xml": {
 		local:   "definitions/AddContact.xml",
-		size:    9250,
+		size:    9252,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtUZXh0QnVmZmVyIiBpZD0ic3Vic2NyaXB0aW9u
@@ -1076,14 +1076,14 @@ ICAgICAgPHByb3BlcnR5IG5hbWU9InVzZS11bmRlcmxpbmUiPlRydWU8L3Byb3BlcnR5PgogICAgICAg
 ICAgICA8cHJvcGVydHkgbmFtZT0iY2FuLWRlZmF1bHQiPnRydWU8L3Byb3BlcnR5PgogICAgICAgICAg
 ICA8c2lnbmFsIG5hbWU9ImNsaWNrZWQiIGhhbmRsZXI9Im9uX3NhdmUiIC8+CiAgICAgICAgICA8L29i
 amVjdD4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+CiAgICA8c3R5
-bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9p
-bnRlcmZhY2U+Cg==
+bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8
+L2ludGVyZmFjZT4K
 `,
 	},
 
 	"/definitions/AnswerSMPQuestion.xml": {
 		local:   "definitions/AnswerSMPQuestion.xml",
-		size:    6371,
+		size:    6373,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtFbnRyeUJ1ZmZlciIgaWQ9InBpbl9lbnRyeV9i
@@ -1191,14 +1191,14 @@ X3NoYXJlX3BpbiIvPgogICAgICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgICAgICA8L2NoaWxkPgog
 ICAgICAgICAgPC9vYmplY3Q+CiAgICAgICAgPC9jaGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2No
 aWxkPgogICAgPGFjdGlvbi13aWRnZXRzPgogICAgICA8YWN0aW9uLXdpZGdldCByZXNwb25zZT0ib2si
 PmJ1dHRvbl9zdWJtaXQ8L2FjdGlvbi13aWRnZXQ+CiAgICA8L2FjdGlvbi13aWRnZXRzPgogICAgPHN0
-eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+Cjwv
-aW50ZXJmYWNlPgo=
+eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4K
+PC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/AskForPassword.xml": {
 		local:   "definitions/AskForPassword.xml",
-		size:    4811,
+		size:    4813,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJBc2tGb3JQYXNzd29yZCI+
@@ -1280,8 +1280,8 @@ ICAgICA8cHJvcGVydHkgbmFtZT0iY2FuLWRlZmF1bHQiPnRydWU8L3Byb3BlcnR5PgogICAgICAgICAg
 ICAgICAgPHNpZ25hbCBuYW1lPSJjbGlja2VkIiBoYW5kbGVyPSJvbl9lbnRlcmVkX3Bhc3N3b3JkIiAv
 PgogICAgICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgICAgICA8L2NoaWxkPgogICAgICAgICAgPC9v
 YmplY3Q+CiAgICAgICAgPC9jaGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0
-eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+Cjwv
-aW50ZXJmYWNlPgo=
+eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4K
+PC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
@@ -1379,7 +1379,7 @@ PC9jaGlsZD4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 
 	"/definitions/CaptureInitialMainPassword.xml": {
 		local:   "definitions/CaptureInitialMainPassword.xml",
-		size:    2787,
+		size:    2789,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJDYXB0dXJlSW5pdGlhbE1h
@@ -1427,14 +1427,14 @@ ICAgIDxjaGlsZD4KICAgICAgICAgIDxvYmplY3QgY2xhc3M9Ikd0a0J1dHRvbiIgaWQ9InNhdmUiPgog
 ICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0ibGFiZWwiIHRyYW5zbGF0YWJsZT0ieWVzIj5PSzwvcHJv
 cGVydHk+CiAgICAgICAgICAgIDxzaWduYWwgbmFtZT0iY2xpY2tlZCIgaGFuZGxlcj0ib25fc2F2ZSIg
 Lz4KICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2JqZWN0PgogICAg
-PC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAgICA8L3N0eWxl
-PgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+PC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4KICAgIDwvc3R5
+bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/CertificateDialog.xml": {
 		local:   "definitions/CertificateDialog.xml",
-		size:    21582,
+		size:    21584,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -1795,14 +1795,14 @@ ZD4KICAgIDxhY3Rpb24td2lkZ2V0cz4KICAgICAgPGFjdGlvbi13aWRnZXQgcmVzcG9uc2U9ImNhbmNl
 bCIgZGVmYXVsdD0idHJ1ZSI+YnV0dG9uX2RvbnQ8L2FjdGlvbi13aWRnZXQ+CiAgICAgIDxhY3Rpb24t
 d2lkZ2V0IHJlc3BvbnNlPSJvayI+YnV0dG9uX3RlbXBfb2s8L2FjdGlvbi13aWRnZXQ+CiAgICAgIDxh
 Y3Rpb24td2lkZ2V0IHJlc3BvbnNlPSJhY2NlcHQiPmJ1dHRvbl9wZXJtX29rPC9hY3Rpb24td2lkZ2V0
-PgogICAgPC9hY3Rpb24td2lkZ2V0cz4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWlt
-Ii8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+PgogICAgPC9hY3Rpb24td2lkZ2V0cz4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295
+aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/ChangePassword.xml": {
 		local:   "definitions/ChangePassword.xml",
-		size:    11268,
+		size:    11270,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJDaGFuZ2VQYXNzd29yZCI+
@@ -1992,13 +1992,13 @@ IDxwcm9wZXJ0eSBuYW1lPSJleHBhbmQiPkZhbHNlPC9wcm9wZXJ0eT4KICAgICAgICAgICAgPHByb3Bl
 cnR5IG5hbWU9ImZpbGwiPlRydWU8L3Byb3BlcnR5PgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0i
 cG9zaXRpb24iPjQ8L3Byb3BlcnR5PgogICAgICAgICAgPC9wYWNraW5nPgogICAgICAgIDwvY2hpbGQ+
 CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9
-ImNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+ImRlY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/ChangePasswordMessageResponse.xml": {
 		local:   "definitions/ChangePasswordMessageResponse.xml",
-		size:    3625,
+		size:    3627,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJDaGFuZ2VQYXNzd29yZE1l
@@ -2060,14 +2060,14 @@ amVjdD4KICAgICAgICAgIDxwYWNraW5nPgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZXhwYW5k
 Ij5GYWxzZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJmaWxsIj5UcnVlPC9w
 cm9wZXJ0eT4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9InBvc2l0aW9uIj4yPC9wcm9wZXJ0eT4K
 ICAgICAgICAgIDwvcGFja2luZz4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwv
-Y2hpbGQ+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4K
-ICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
+Y2hpbGQ+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxl
+PgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
 	"/definitions/ChooseKeyToImport.xml": {
 		local:   "definitions/ChooseKeyToImport.xml",
-		size:    2071,
+		size:    2073,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -2103,8 +2103,8 @@ CiAgICAgICAgICA8L29iamVjdD4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwv
 Y2hpbGQ+CiAgICA8YWN0aW9uLXdpZGdldHM+CiAgICAgIDxhY3Rpb24td2lkZ2V0IHJlc3BvbnNlPSJj
 YW5jZWwiPmJ0bi1jYW5jZWw8L2FjdGlvbi13aWRnZXQ+CiAgICAgIDxhY3Rpb24td2lkZ2V0IHJlc3Bv
 bnNlPSJvayIgZGVmYXVsdD0idHJ1ZSI+YnRuLWltcG9ydDwvYWN0aW9uLXdpZGdldD4KICAgIDwvYWN0
-aW9uLXdpZGdldHM+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9z
-dHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
+aW9uLXdpZGdldHM+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8
+L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
@@ -2211,7 +2211,7 @@ PgogICAgPC9jaGlsZD4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 
 	"/definitions/ConnectionInformation.xml": {
 		local:   "definitions/ConnectionInformation.xml",
-		size:    6456,
+		size:    6458,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJDb25uZWN0aW9uSW5mb3Jt
@@ -2320,8 +2320,8 @@ CiAgICAgICAgPGNoaWxkPgogICAgICAgICAgPG9iamVjdCBjbGFzcz0iR3RrQnV0dG9uIiBpZD0iY2xv
 c2UiPgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0ibGFiZWwiIHRyYW5zbGF0YWJsZT0ieWVzIj5D
 bG9zZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxzaWduYWwgbmFtZT0iY2xpY2tlZCIgaGFuZGxlcj0i
 b25fY2xvc2UiLz4KICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2Jq
-ZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAg
-ICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+ZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4K
+ICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
@@ -2378,7 +2378,7 @@ bGQ+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 
 	"/definitions/Conversation.xml": {
 		local:   "definitions/Conversation.xml",
-		size:    717,
+		size:    719,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtXaW5kb3ciIGlkPSJjb252ZXJzYXRpb24iPgog
@@ -2392,7 +2392,7 @@ dGtCb3giIGlkPSJib3giPgogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJ2aXNpYmxlIj50cnVlPC9wcm9w
 ZXJ0eT4KICAgICAgICA8cHJvcGVydHkgbmFtZT0iaG9tb2dlbmVvdXMiPmZhbHNlPC9wcm9wZXJ0eT4K
 ICAgIAk8cHJvcGVydHkgbmFtZT0ib3JpZW50YXRpb24iPkdUS19PUklFTlRBVElPTl9WRVJUSUNBTDwv
 cHJvcGVydHk+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNs
-YXNzIG5hbWU9ImNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+YXNzIG5hbWU9ImRlY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
@@ -2658,7 +2658,7 @@ eT4KICAgICAgPC9wYWNraW5nPgogICAgPC9jaGlsZD4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+
 
 	"/definitions/EditProxy.xml": {
 		local:   "definitions/EditProxy.xml",
-		size:    6721,
+		size:    6723,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJFZGl0UHJveHkiPgogICAg
@@ -2772,8 +2772,8 @@ ICAgICAgICA8cHJvcGVydHkgbmFtZT0iY2FuLWRlZmF1bHQiPnRydWU8L3Byb3BlcnR5PgogICAgICAg
 ICAgICAgICAgPHNpZ25hbCBuYW1lPSJjbGlja2VkIiBoYW5kbGVyPSJvbl9zYXZlIi8+CiAgICAgICAg
 ICAgICAgPC9vYmplY3Q+CiAgICAgICAgICAgIDwvY2hpbGQ+CiAgICAgICAgICA8L29iamVjdD4KICAg
 ICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+CiAgICA8c3R5bGU+CiAgICAg
-IDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+
-Cg==
+IDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFj
+ZT4K
 `,
 	},
 
@@ -2794,7 +2794,7 @@ L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 
 	"/definitions/Feedback.xml": {
 		local:   "definitions/Feedback.xml",
-		size:    2889,
+		size:    2891,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -2844,8 +2844,8 @@ b2JqZWN0IGNsYXNzPSJHdGtCdXR0b24iIGlkPSJjbG9zZSI+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBu
 YW1lPSJsYWJlbCIgdHJhbnNsYXRhYmxlPSJ5ZXMiPkNsb3NlPC9wcm9wZXJ0eT4KICAgICAgICAgICAg
 PHNpZ25hbCBuYW1lPSJjbGlja2VkIiBoYW5kbGVyPSJvbl9jbG9zZSIgLz4KICAgICAgICAgIDwvb2Jq
 ZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHls
-ZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2lu
-dGVyZmFjZT4K
+ZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+Cjwv
+aW50ZXJmYWNlPgo=
 `,
 	},
 
@@ -2951,7 +2951,7 @@ ICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 
 	"/definitions/FirstAccountDialog.xml": {
 		local:   "definitions/FirstAccountDialog.xml",
-		size:    2989,
+		size:    2991,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -3003,7 +3003,7 @@ PHByb3BlcnR5IG5hbWU9Im1hcmdpbl9ib3R0b20iPjU8L3Byb3BlcnR5PgoJCSAgICAgICAgPHNpZ25h
 bCBuYW1lPSJjbGlja2VkIiBoYW5kbGVyPSJvbl9jYW5jZWwiIC8+CiAgICAgICAgICAgICAgPC9vYmpl
 Y3Q+CiAgICAgICAgICAgIDwvY2hpbGQ+CiAgICAgICAgICA8L29iamVjdD4KICAgICAgICA8L2NoaWxk
 PgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1l
-PSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
+PSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
@@ -3021,7 +3021,7 @@ dGVyZmFjZT4K
 
 	"/definitions/GeneratePIN.xml": {
 		local:   "definitions/GeneratePIN.xml",
-		size:    4938,
+		size:    4940,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -3105,14 +3105,14 @@ ICAgICA8c2lnbmFsIG5hbWU9ImNsaWNrZWQiIGhhbmRsZXI9ImNsb3NlX3NoYXJlX3BpbiIvPgogICAg
 ICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgICAgICA8L2NoaWxkPgogICAgICAgICAgPC9vYmplY3Q+
 CiAgICAgICAgPC9jaGlsZD4KICAgICAgICA8c3R5bGU+CiAgICAgICAgICA8Y2xhc3MgbmFtZT0ibm90
 aWZpY2F0aW9ucyIvPgogICAgICAgIDwvc3R5bGU+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4K
-ICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2Jq
-ZWN0Pgo8L2ludGVyZmFjZT4K
+ICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9v
+YmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/GlobalPreferences.xml": {
 		local:   "definitions/GlobalPreferences.xml",
-		size:    19985,
+		size:    19987,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtMaXN0U3RvcmUiIGlkPSJub3RpZmljYXRpb24t
@@ -3447,14 +3447,14 @@ ICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImNhbi1kZWZhdWx0Ij50cnVlPC9wcm9wZXJ0eT4KICAg
 ICAgICAgICAgICAgIDxzaWduYWwgbmFtZT0iY2xpY2tlZCIgaGFuZGxlcj0ib25fc2F2ZSIvPgogICAg
 ICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgICAgICA8L2NoaWxkPgogICAgICAgICAgPC9vYmplY3Q+
 CiAgICAgICAgPC9jaGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0eWxlPgog
-ICAgICA8Y2xhc3MgbmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJm
-YWNlPgo=
+ICAgICA8Y2xhc3MgbmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRl
+cmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/GroupDetails.xml": {
 		local:   "definitions/GroupDetails.xml",
-		size:    2138,
+		size:    2140,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -3491,14 +3491,14 @@ ICAgPC9jaGlsZD4KICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2Jq
 ZWN0PgogICAgPC9jaGlsZD4KICAgIDxhY3Rpb24td2lkZ2V0cz4KICAgICAgPGFjdGlvbi13aWRnZXQg
 cmVzcG9uc2U9ImNhbmNlbCI+YnRuLWNhbmNlbDwvYWN0aW9uLXdpZGdldD4KICAgICAgPGFjdGlvbi13
 aWRnZXQgcmVzcG9uc2U9Im9rIiBkZWZhdWx0PSJ0cnVlIj5idG4tb2s8L2FjdGlvbi13aWRnZXQ+CiAg
-ICA8L2FjdGlvbi13aWRnZXRzPgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iY295aW0iLz4K
-ICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
+ICA8L2FjdGlvbi13aWRnZXRzPgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iZGVjb3lpbSIv
+PgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/Importer.xml": {
 		local:   "definitions/Importer.xml",
-		size:    4911,
+		size:    4913,
 		modtime: 1489449600,
 		compressed: `
 PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGludGVyZmFjZT4KICA8b2JqZWN0
@@ -3582,7 +3582,7 @@ ICA8L29iamVjdD4KICAgIDwvY2hpbGQ+CiAgICA8YWN0aW9uLXdpZGdldHM+CiAgICAgIDxhY3Rpb24t
 d2lkZ2V0IHJlc3BvbnNlPSJjYW5jZWwiPmJ1dHRvbl9jYW5jZWw8L2FjdGlvbi13aWRnZXQ+CiAgICAg
 IDxhY3Rpb24td2lkZ2V0IHJlc3BvbnNlPSJvayIgZGVmYXVsdD0idHJ1ZSI+YnV0dG9uX29rPC9hY3Rp
 b24td2lkZ2V0PgogICAgPC9hY3Rpb24td2lkZ2V0cz4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5h
-bWU9ImNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+bWU9ImRlY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
@@ -3769,7 +3769,7 @@ ZT4K
 
 	"/definitions/MUCCreateRoomDialog.xml": {
 		local:   "definitions/MUCCreateRoomDialog.xml",
-		size:    2254,
+		size:    2256,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJjcmVhdGUtcm9vbS1kaWFs
@@ -3808,8 +3808,8 @@ cGFja2luZz4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImV4cGFuZCI+RmFsc2U8L3Byb3BlcnR5
 PgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZmlsbCI+VHJ1ZTwvcHJvcGVydHk+CiAgICAgICAg
 ICAgIDxwcm9wZXJ0eSBuYW1lPSJwb3NpdGlvbiI+MTwvcHJvcGVydHk+CiAgICAgICAgICA8L3BhY2tp
 bmc+CiAgICAgICAgPC9jaGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0eWxl
-PgogICAgICA8Y2xhc3MgbmFtZT0ibXVjIi8+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAg
-PC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
+PgogICAgICA8Y2xhc3MgbmFtZT0ibXVjIi8+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAg
+ICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
@@ -4091,7 +4091,7 @@ PC9vYmplY3Q+CjwvaW50ZXJmYWNlPg==
 
 	"/definitions/MUCJoinRoomDialog.xml": {
 		local:   "definitions/MUCJoinRoomDialog.xml",
-		size:    10397,
+		size:    10399,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJqb2luLXJvb20tZGlhbG9n
@@ -4266,14 +4266,14 @@ ICAgICA8cHJvcGVydHkgbmFtZT0iZXhwYW5kIj5UcnVlPC9wcm9wZXJ0eT4KICAgICAgICAgICAgPHBy
 b3BlcnR5IG5hbWU9ImZpbGwiPlRydWU8L3Byb3BlcnR5PgogICAgICAgICAgICA8cHJvcGVydHkgbmFt
 ZT0icG9zaXRpb24iPjE8L3Byb3BlcnR5PgogICAgICAgICAgPC9wYWNraW5nPgogICAgICAgIDwvY2hp
 bGQ+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5h
-bWU9Im11YyIvPgogICAgICA8Y2xhc3MgbmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmpl
-Y3Q+CjwvaW50ZXJmYWNlPgo=
+bWU9Im11YyIvPgogICAgICA8Y2xhc3MgbmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29i
+amVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/MUCPublicRoomsDialog.xml": {
 		local:   "definitions/MUCPublicRoomsDialog.xml",
-		size:    18096,
+		size:    18098,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJwdWJsaWMtcm9vbXMtZGlh
@@ -4576,14 +4576,14 @@ ICA8cGFja2luZz4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImV4cGFuZCI+VHJ1ZTwvcHJvcGVy
 dHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJmaWxsIj5UcnVlPC9wcm9wZXJ0eT4KICAgICAg
 ICAgICAgPHByb3BlcnR5IG5hbWU9InBvc2l0aW9uIj4zPC9wcm9wZXJ0eT4KICAgICAgICAgIDwvcGFj
 a2luZz4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+CiAgICA8c3R5
-bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJtdWMiLz4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAg
-ICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJtdWMiLz4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4K
+ICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/MUCRoomAffiliationDialog.xml": {
 		local:   "definitions/MUCRoomAffiliationDialog.xml",
-		size:    30156,
+		size:    30158,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJhZmZpbGlhdGlvbi1kaWFs
@@ -5087,14 +5087,14 @@ ICAgICAgICA8L29iamVjdD4KICAgICAgICAgIDxwYWNraW5nPgogICAgICAgICAgICA8cHJvcGVydHkg
 bmFtZT0iZXhwYW5kIj5UcnVlPC9wcm9wZXJ0eT4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImZp
 bGwiPlRydWU8L3Byb3BlcnR5PgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icG9zaXRpb24iPjA8
 L3Byb3BlcnR5PgogICAgICAgICAgPC9wYWNraW5nPgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2Jq
-ZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAg
-ICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+ZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4K
+ICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/MUCRoomCloseWindowConfirm.xml": {
 		local:   "definitions/MUCRoomCloseWindowConfirm.xml",
-		size:    6625,
+		size:    6627,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtXaW5kb3ciIGlkPSJyb29tLWNsb3NlLWNvbmZp
@@ -5206,14 +5206,14 @@ amVjdD4KICAgICAgICAgIDxwYWNraW5nPgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZXhwYW5k
 Ij5GYWxzZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJmaWxsIj5UcnVlPC9w
 cm9wZXJ0eT4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9InBvc2l0aW9uIj4xPC9wcm9wZXJ0eT4K
 ICAgICAgICAgIDwvcGFja2luZz4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwv
-Y2hpbGQ+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4K
-ICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
+Y2hpbGQ+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxl
+PgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
 	"/definitions/MUCRoomConfigAssistant.xml": {
 		local:   "definitions/MUCRoomConfigAssistant.xml",
-		size:    778,
+		size:    780,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtBc3Npc3RhbnQiIGlkPSJyb29tLWNvbmZpZy1h
@@ -5228,7 +5228,7 @@ ZT0idXNlX2hlYWRlcl9iYXIiPjE8L3Byb3BlcnR5PgogICAgPHNpZ25hbCBuYW1lPSJjYW5jZWwiIGhh
 bmRsZXI9Im9uX2NhbmNlbCIgc3dhcHBlZD0ibm8iLz4KICAgIDxzaWduYWwgbmFtZT0icHJlcGFyZSIg
 aGFuZGxlcj0ib25fcGFnZV9jaGFuZ2VkIiBzd2FwcGVkPSJubyIvPgogICAgPHNpZ25hbCBuYW1lPSJh
 cHBseSIgaGFuZGxlcj0ib25fYXBwbHkiIHN3YXBwZWQ9Im5vIi8+CiAgICA8c3R5bGU+CiAgICAgIDxj
-bGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
+bGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
@@ -6164,7 +6164,7 @@ ZXJmYWNlPgo=
 
 	"/definitions/MUCRoomConfigListAddDialog.xml": {
 		local:   "definitions/MUCRoomConfigListAddDialog.xml",
-		size:    9399,
+		size:    9401,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJyb29tLWNvbmZpZy1saXN0
@@ -6322,8 +6322,8 @@ ICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgICAgPHBhY2tpbmc+CiAgICAgICAgICAgIDxwcm9wZXJ0
 eSBuYW1lPSJleHBhbmQiPkZhbHNlPC9wcm9wZXJ0eT4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9
 ImZpbGwiPlRydWU8L3Byb3BlcnR5PgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icG9zaXRpb24i
 PjE8L3Byb3BlcnR5PgogICAgICAgICAgPC9wYWNraW5nPgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwv
-b2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+
-CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+b2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0i
+Lz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
@@ -6760,7 +6760,7 @@ PgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 
 	"/definitions/MUCRoomConfirmationRoomDialog.xml": {
 		local:   "definitions/MUCRoomConfirmationRoomDialog.xml",
-		size:    5100,
+		size:    5102,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJjb25maXJtYXRpb24tZGlh
@@ -6847,7 +6847,8 @@ CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJleHBhbmQiPkZhbHNlPC9wcm9wZXJ0eT4KICAgICAg
 ICAgICAgPHByb3BlcnR5IG5hbWU9ImZpbGwiPlRydWU8L3Byb3BlcnR5PgogICAgICAgICAgICA8cHJv
 cGVydHkgbmFtZT0icG9zaXRpb24iPjA8L3Byb3BlcnR5PgogICAgICAgICAgPC9wYWNraW5nPgogICAg
 ICAgIDwvY2hpbGQ+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAg
-PGNsYXNzIG5hbWU9ImNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+PGNsYXNzIG5hbWU9ImRlY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNl
+Pgo=
 `,
 	},
 
@@ -7009,7 +7010,7 @@ b2JqZWN0Pgo8L2ludGVyZmFjZT4=
 
 	"/definitions/MUCRoomDestroyDialog.xml": {
 		local:   "definitions/MUCRoomDestroyDialog.xml",
-		size:    15824,
+		size:    15826,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkZXN0cm95LXJvb20tZGlh
@@ -7274,14 +7275,14 @@ ICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJleHBhbmQiPlRydWU8L3Byb3BlcnR5PgogICAgICAgICAgICA8
 cHJvcGVydHkgbmFtZT0iZmlsbCI+VHJ1ZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBu
 YW1lPSJwYWRkaW5nIj4xMjwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJwb3Np
 dGlvbiI+MTwvcHJvcGVydHk+CiAgICAgICAgICA8L3BhY2tpbmc+CiAgICAgICAgPC9jaGlsZD4KICAg
-ICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iY295
-aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
+ICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iZGVj
+b3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/MUCRoomDestroyDialogError.xml": {
 		local:   "definitions/MUCRoomDestroyDialogError.xml",
-		size:    5955,
+		size:    5957,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJyb29tLWRlc3RvcnktZXJy
@@ -7382,14 +7383,14 @@ Ij5GYWxzZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJmaWxsIj5UcnVlPC9w
 cm9wZXJ0eT4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9InBhZGRpbmciPjY8L3Byb3BlcnR5Pgog
 ICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icG9zaXRpb24iPjA8L3Byb3BlcnR5PgogICAgICAgICAg
 PC9wYWNraW5nPgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAg
-IDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0
-Pgo8L2ludGVyZmFjZT4K
+IDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmpl
+Y3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/MUCRoomDialogErrorComponent.xml": {
 		local:   "definitions/MUCRoomDialogErrorComponent.xml",
-		size:    6740,
+		size:    6742,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJyb29tLWVycm9yLWRpYWxv
@@ -7503,8 +7504,8 @@ CiAgICAgICAgICA8cGFja2luZz4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImV4cGFuZCI+RmFs
 c2U8L3Byb3BlcnR5PgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZmlsbCI+VHJ1ZTwvcHJvcGVy
 dHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJwb3NpdGlvbiI+MDwvcHJvcGVydHk+CiAgICAg
 ICAgICA8L3BhY2tpbmc+CiAgICAgICAgPC9jaGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxk
-PgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9v
-YmplY3Q+CjwvaW50ZXJmYWNlPgo=
+PgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8
+L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
@@ -7748,7 +7749,7 @@ ZD4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 
 	"/definitions/MUCRoomOccupantActionDialog.xml": {
 		local:   "definitions/MUCRoomOccupantActionDialog.xml",
-		size:    11387,
+		size:    11389,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJvY2N1cGFudC1hY3Rpb24t
@@ -7940,13 +7941,13 @@ IDxwcm9wZXJ0eSBuYW1lPSJleHBhbmQiPlRydWU8L3Byb3BlcnR5PgogICAgICAgICAgICA8cHJvcGVy
 dHkgbmFtZT0iZmlsbCI+VHJ1ZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJw
 b3NpdGlvbiI+MTwvcHJvcGVydHk+CiAgICAgICAgICA8L3BhY2tpbmc+CiAgICAgICAgPC9jaGlsZD4K
 ICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0i
-Y295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
+ZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/MUCRoomPositionsDialog.xml": {
 		local:   "definitions/MUCRoomPositionsDialog.xml",
-		size:    4999,
+		size:    5001,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtXaW5kb3ciIGlkPSJwb3NpdGlvbnMtd2luZG93
@@ -8031,14 +8032,14 @@ ICAgICAgICAgIDxwYWNraW5nPgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZXhwYW5kIj5GYWxz
 ZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJmaWxsIj5UcnVlPC9wcm9wZXJ0
 eT4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9InBvc2l0aW9uIj4yPC9wcm9wZXJ0eT4KICAgICAg
 ICAgIDwvcGFja2luZz4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+
-CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29i
-amVjdD4KPC9pbnRlcmZhY2U+Cg==
+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwv
+b2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
 	"/definitions/MUCRoomRoleDialog.xml": {
 		local:   "definitions/MUCRoomRoleDialog.xml",
-		size:    22939,
+		size:    22941,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJyb2xlLWRpYWxvZyI+CiAg
@@ -8422,8 +8423,8 @@ ICAgICAgICAgIDxwYWNraW5nPgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZXhwYW5kIj5GYWxz
 ZTwvcHJvcGVydHk+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJmaWxsIj5UcnVlPC9wcm9wZXJ0
 eT4KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9InBvc2l0aW9uIj4wPC9wcm9wZXJ0eT4KICAgICAg
 ICAgIDwvcGFja2luZz4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+
-CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29i
-amVjdD4KPC9pbnRlcmZhY2U+Cg==
+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwv
+b2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
@@ -9516,7 +9517,7 @@ aW50ZXJmYWNlPgo=
 
 	"/definitions/MUCRoomWarningsDialog.xml": {
 		local:   "definitions/MUCRoomWarningsDialog.xml",
-		size:    12707,
+		size:    12709,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtXaW5kb3ciIGlkPSJyb29tLXdhcm5pbmdzLWRp
@@ -9730,7 +9731,7 @@ ICAgPC9jaGlsZD4KICAgICAgICAgICAgPHN0eWxlPgogICAgICAgICAgICAgIDxjbGFzcyBuYW1lPSJ3
 YXJuaW5ncy1kaWFsb2ctY2xvc2UiLz4KICAgICAgICAgICAgPC9zdHlsZT4KICAgICAgICAgIDwvb2Jq
 ZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHls
 ZT4KICAgICAgPGNsYXNzIG5hbWU9Indhcm5pbmdzLWRpYWxvZyIvPgogICAgICA8Y2xhc3MgbmFtZT0i
-Y295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
+ZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
@@ -9837,7 +9838,7 @@ ICAgIDwvY2hpbGQ+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 
 	"/definitions/MUCRoomWindow.xml": {
 		local:   "definitions/MUCRoomWindow.xml",
-		size:    3756,
+		size:    3758,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtXaW5kb3ciIGlkPSJyb29tLXdpbmRvdyI+CiAg
@@ -9901,14 +9902,14 @@ ICAgICAgICAgIDwvY2hpbGQ+CiAgICAgICAgICA8L29iamVjdD4KICAgICAgICAgIDxwYWNraW5nPgog
 ICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icGFzc190aHJvdWdoIj5UcnVlPC9wcm9wZXJ0eT4KICAg
 ICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImluZGV4Ij4zPC9wcm9wZXJ0eT4KICAgICAgICAgIDwvcGFj
 a2luZz4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+CiAgICA8c3R5
-bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJtdWMiLz4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAg
-ICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJtdWMiLz4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4K
+ICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/Main.xml": {
 		local:   "definitions/Main.xml",
-		size:    12838,
+		size:    12840,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtBcHBsaWNhdGlvbldpbmRvdyIgaWQ9Im1haW5X
@@ -10124,13 +10125,13 @@ ICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImV4cGFuZCI+VHJ1ZTwvcHJvcGVydHk+CiAgICAgICAg
 ICAgIDxwcm9wZXJ0eSBuYW1lPSJmaWxsIj5UcnVlPC9wcm9wZXJ0eT4KICAgICAgICAgICAgPHByb3Bl
 cnR5IG5hbWU9InBvc2l0aW9uIj4wPC9wcm9wZXJ0eT4KICAgICAgICAgIDwvcGFja2luZz4KICAgICAg
 ICA8L2NoaWxkPgogICAgICA8L29iamVjdD4KICAgIDwvY2hpbGQ+CiAgICA8c3R5bGU+CiAgICAgIDxj
-bGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
+bGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
 	"/definitions/MainPassword.xml": {
 		local:   "definitions/MainPassword.xml",
-		size:    2376,
+		size:    2378,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJNYWluUGFzc3dvcmQiPgog
@@ -10171,14 +10172,14 @@ aWxkPgogICAgICAgIDxjaGlsZD4KICAgICAgICAgIDxvYmplY3QgY2xhc3M9Ikd0a0J1dHRvbiIgaWQ9
 InNhdmUiPgogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0ibGFiZWwiIHRyYW5zbGF0YWJsZT0ieWVz
 Ij5PSzwvcHJvcGVydHk+CiAgICAgICAgICAgIDxzaWduYWwgbmFtZT0iY2xpY2tlZCIgaGFuZGxlcj0i
 b25fc2F2ZSIgLz4KICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2Jq
-ZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAg
-ICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+ZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4K
+ICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/NewCustomConversation.xml": {
 		local:   "definitions/NewCustomConversation.xml",
-		size:    4760,
+		size:    4762,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtMaXN0U3RvcmUiIGlkPSJhY2NvdW50cy1tb2Rl
@@ -10259,8 +10260,8 @@ cm9wZXJ0eT4KICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJjYW4tZGVmYXVsdCI+dHJ1ZTwv
 cHJvcGVydHk+CiAgICAgICAgICAgICAgICA8c2lnbmFsIG5hbWU9ImNsaWNrZWQiIGhhbmRsZXI9Im9u
 X3N0YXJ0IiAvPgogICAgICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgICAgICA8L2NoaWxkPgogICAg
 ICAgICAgPC9vYmplY3Q+CiAgICAgICAgPC9jaGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxk
-PgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9v
-YmplY3Q+CjwvaW50ZXJmYWNlPgo=
+PgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8
+L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
@@ -10296,7 +10297,7 @@ cGFja2luZz4KICAgIDwvY2hpbGQ+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 
 	"/definitions/PeerDetails.xml": {
 		local:   "definitions/PeerDetails.xml",
-		size:    10054,
+		size:    10056,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtMaXN0U3RvcmUiIGlkPSJjdXJyZW50LWdyb3Vw
@@ -10465,8 +10466,8 @@ YXJnaW4tZW5kIj4xMDwvcHJvcGVydHk+CiAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icm93
 LXNwYWNpbmciPjEyPC9wcm9wZXJ0eT4KICAgICAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJjb2x1
 bW4tc3BhY2luZyI+NjwvcHJvcGVydHk+CiAgICAgICAgICAgICAgPC9vYmplY3Q+CiAgICAgICAgICAg
 IDwvY2hpbGQ+CiAgICAgICAgICA8L29iamVjdD4KICAgICAgICA8L2NoaWxkPgogICAgICA8L29iamVj
-dD4KICAgIDwvY2hpbGQ+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAg
-PC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
+dD4KICAgIDwvY2hpbGQ+CiAgICA8c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAg
+ICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
@@ -10552,7 +10553,7 @@ PC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 
 	"/definitions/RegistrationForm.xml": {
 		local:   "definitions/RegistrationForm.xml",
-		size:    2228,
+		size:    2230,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHNp
@@ -10591,8 +10592,8 @@ IDwvY2hpbGQ+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxhY3Rpb24td2lkZ2V0cz4K
 ICAgICAgPGFjdGlvbi13aWRnZXQgcmVzcG9uc2U9ImNhbmNlbCI+YnRuLWNhbmNlbDwvYWN0aW9uLXdp
 ZGdldD4KICAgICAgPGFjdGlvbi13aWRnZXQgcmVzcG9uc2U9ImFwcGx5IiBkZWZhdWx0PSJ0cnVlIj5i
 dG4tcmVnaXN0ZXI8L2FjdGlvbi13aWRnZXQ+CiAgICA8L2FjdGlvbi13aWRnZXRzPgogICAgPHN0eWxl
-PgogICAgICA8Y2xhc3MgbmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50
-ZXJmYWNlPgo=
+PgogICAgICA8Y2xhc3MgbmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9p
+bnRlcmZhY2U+Cg==
 `,
 	},
 
@@ -10687,7 +10688,7 @@ ZXJ0eT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 
 	"/definitions/TorInstallHelper.xml": {
 		local:   "definitions/TorInstallHelper.xml",
-		size:    3879,
+		size:    3881,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -10753,8 +10754,8 @@ eT4KICAgICAgICA8Y2hpbGQ+CiAgICAgICAgICA8b2JqZWN0IGNsYXNzPSJHdGtCdXR0b24iIGlkPSJj
 bG9zZSI+CiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJsYWJlbCIgdHJhbnNsYXRhYmxlPSJ5ZXMi
 PkNsb3NlPC9wcm9wZXJ0eT4KICAgICAgICAgICAgPHNpZ25hbCBuYW1lPSJjbGlja2VkIiBoYW5kbGVy
 PSJvbl9jbG9zZSIgLz4KICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwv
-b2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+
-CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+b2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0i
+Lz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
@@ -11074,7 +11075,7 @@ Y2hpbGQ+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 
 	"/definitions/VerificationFailed.xml": {
 		local:   "definitions/VerificationFailed.xml",
-		size:    2387,
+		size:    2389,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJ2ZXJpZi1mYWlsdXJlLWRp
@@ -11116,13 +11117,13 @@ cmFuc2xhdGFibGU9InllcyI+VHJ5IGFnYWluIGxhdGVyPC9wcm9wZXJ0eT4KICAgICAgICAgICAgICAg
 ICAgPC9vYmplY3Q+CiAgICAgICAgICAgICAgICA8L2NoaWxkPgogICAgICAgICAgICAgIDwvb2JqZWN0
 PgogICAgICAgICAgICA8L2NoaWxkPgogICAgICAgICAgPC9vYmplY3Q+CiAgICAgICAgPC9jaGlsZD4K
 ICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0eWxlPgogICAgICA8Y2xhc3MgbmFtZT0i
-Y295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
+ZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/VerificationSucceeded.xml": {
 		local:   "definitions/VerificationSucceeded.xml",
-		size:    1313,
+		size:    1315,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJ2ZXJpZi1zdWNjZXNzLWRp
@@ -11146,13 +11147,13 @@ dHkgbmFtZT0ibGFiZWwiIHRyYW5zbGF0YWJsZT0ieWVzIj5PSzwvcHJvcGVydHk+CiAgICAgICAgICAg
 ICAgICA8cHJvcGVydHkgbmFtZT0ibWFyZ2luLXRvcCI+MTA8L3Byb3BlcnR5PgoJICAgICAgICAgIDwv
 b2JqZWN0PgogICAgICAgICAgICA8L2NoaWxkPgogICAgICAgICAgPC9vYmplY3Q+CiAgICAgICAgPC9j
 aGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAgPHN0eWxlPgogICAgICA8Y2xhc3Mg
-bmFtZT0iY295aW0iLz4KICAgIDwvc3R5bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
+bmFtZT0iZGVjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4KPC9pbnRlcmZhY2U+Cg==
 `,
 	},
 
 	"/definitions/VerifyFingerprint.xml": {
 		local:   "definitions/VerifyFingerprint.xml",
-		size:    1941,
+		size:    1943,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -11186,14 +11187,14 @@ b2JqZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2JqZWN0PgogICAgPC9jaGlsZD4KICAgIDxh
 Y3Rpb24td2lkZ2V0cz4KICAgICAgPGFjdGlvbi13aWRnZXQgcmVzcG9uc2U9Im5vIiBkZWZhdWx0PSJ0
 cnVlIj5idXR0b25fY2FuY2VsPC9hY3Rpb24td2lkZ2V0PgogICAgICA8YWN0aW9uLXdpZGdldCByZXNw
 b25zZT0ieWVzIj5idXR0b25fdmVyaWZ5PC9hY3Rpb24td2lkZ2V0PgogICAgPC9hY3Rpb24td2lkZ2V0
-cz4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAgICA8L3N0eWxlPgogIDwv
-b2JqZWN0Pgo8L2ludGVyZmFjZT4K
+cz4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4KICAgIDwvc3R5bGU+CiAg
+PC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 
 	"/definitions/VerifyFingerprintUnknown.xml": {
 		local:   "definitions/VerifyFingerprintUnknown.xml",
-		size:    1153,
+		size:    1155,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtEaWFsb2ciIGlkPSJkaWFsb2ciPgogICAgPHBy
@@ -11214,8 +11215,8 @@ cnR5PgogICAgICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgICAgICA8L2NoaWxkPgogICAgICAgICAg
 PC9vYmplY3Q+CiAgICAgICAgPC9jaGlsZD4KICAgICAgPC9vYmplY3Q+CiAgICA8L2NoaWxkPgogICAg
 PGFjdGlvbi13aWRnZXRzPgogICAgICA8YWN0aW9uLXdpZGdldCByZXNwb25zZT0ib2siIGRlZmF1bHQ9
 InRydWUiPmJ1dHRvbl9vazwvYWN0aW9uLXdpZGdldD4KICAgIDwvYWN0aW9uLXdpZGdldHM+CiAgICA8
-c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJjb3lpbSIvPgogICAgPC9zdHlsZT4KICA8L29iamVjdD4K
-PC9pbnRlcmZhY2U+Cg==
+c3R5bGU+CiAgICAgIDxjbGFzcyBuYW1lPSJkZWNveWltIi8+CiAgICA8L3N0eWxlPgogIDwvb2JqZWN0
+Pgo8L2ludGVyZmFjZT4K
 `,
 	},
 
@@ -11265,7 +11266,7 @@ L2NoaWxkPgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
 
 	"/definitions/XMLConsole.xml": {
 		local:   "definitions/XMLConsole.xml",
-		size:    3087,
+		size:    3089,
 		modtime: 1489449600,
 		compressed: `
 PGludGVyZmFjZT4KICA8b2JqZWN0IGNsYXNzPSJHdGtUZXh0QnVmZmVyIiBpZD0iY29uc29sZUNvbnRl
@@ -11318,8 +11319,8 @@ VHJ1ZTwvcHJvcGVydHk+CiAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iY2FuLWRlZmF1bHQi
 PnRydWU8L3Byb3BlcnR5PgogICAgICAgICAgICAgICAgPHNpZ25hbCBuYW1lPSJjbGlja2VkIiBoYW5k
 bGVyPSJvbl9jbG9zZSIgLz4KICAgICAgICAgICAgICA8L29iamVjdD4KICAgICAgICAgICAgPC9jaGls
 ZD4KICAgICAgICAgIDwvb2JqZWN0PgogICAgICAgIDwvY2hpbGQ+CiAgICAgIDwvb2JqZWN0PgogICAg
-PC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImNveWltIi8+CiAgICA8L3N0eWxl
-PgogIDwvb2JqZWN0Pgo8L2ludGVyZmFjZT4K
+PC9jaGlsZD4KICAgIDxzdHlsZT4KICAgICAgPGNsYXNzIG5hbWU9ImRlY295aW0iLz4KICAgIDwvc3R5
+bGU+CiAgPC9vYmplY3Q+CjwvaW50ZXJmYWNlPgo=
 `,
 	},
 

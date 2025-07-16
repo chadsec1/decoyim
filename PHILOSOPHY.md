@@ -1,10 +1,10 @@
-# The philosophy, mission, guidelines and goals of CoyIM
+# The philosophy, mission, guidelines and goals of DecoyIM
 
 This document aims to expand a bit on the philosophy we use when developing
-CoyIM - what the mission is, and guidelines for what features we choose to
+DecoyIM - what the mission is, and guidelines for what features we choose to
 include or not include. It is not a manifesto, and it's an evolving document.
 
-The first thing to keep in mind is that CoyIM is not primarily a general purpose
+The first thing to keep in mind is that DecoyIM is not primarily a general purpose
 chat client. We are not aiming to compete with Facebook Messenger, or Skype, or
 Pidgin, or WhatsApp, or Slack, or many of the other clients out there. Or at
 least, we don't aim to compete with them for general purpose chatting needs. We
@@ -18,10 +18,10 @@ fully featured Jabber client. We will try our hardest to NOT implement an XEP or
 feature, unless we really need it. This puts us in a very different position
 compared to applications like Gajim, Pidgin, Dino and all the others - these
 applications all are aiming to be general purpose chat clients, and are
-implementing a large number of standards in order to get there. CoyIM can't
+implementing a large number of standards in order to get there. DecoyIM can't
 really be compared to these, because our philosophy is basically the opposite.
 
-The mission of CoyIM is quite simple - we want to be as secure as possible, from
+The mission of DecoyIM is quite simple - we want to be as secure as possible, from
 the moment you start up. We want to leak the minimum information necessary for
 you to be able to communicate what you need to communicate. We will sometimes
 make it possible to configure settings to _lower_ your security - but we will

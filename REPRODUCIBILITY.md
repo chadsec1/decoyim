@@ -1,8 +1,8 @@
 # Reproducibility
 
-CoyIM currently only supports reproducible builds on Linux with AMD64. This document describes both how to do this, but
-also how to verify the existing signatures. The CoyIM reproducibility process generates a file called `build_info` that
-contains the SHA256 sum of CoyIM binary. Anyone that generates the same file can then generate a detached armored
+DecoyIM currently only supports reproducible builds on Linux with AMD64. This document describes both how to do this, but
+also how to verify the existing signatures. The DecoyIM reproducibility process generates a file called `build_info` that
+contains the SHA256 sum of DecoyIM binary. Anyone that generates the same file can then generate a detached armored
 signature and make that available for others to verify.
 
 
@@ -16,13 +16,13 @@ DIR is the coyim source code directory:
   chcon -Rt svirt_sandbox_file_t $DIR
 ```
 
-In order to build CoyIM reproducibly, you simply do
+In order to build DecoyIM reproducibly, you simply do
 
 ```sh
   make reproducible-linux-build
 ```
 
-inside of the CoyIM directory. This will create a new Docker image and then use it to build CoyIM. At the end of the
+inside of the DecoyIM directory. This will create a new Docker image and then use it to build DecoyIM. At the end of the
 process, it will generate two files:
 
 ```sh
@@ -55,7 +55,7 @@ which will mail the signed `build_info` file to [security@coy.im](mailto:securit
 
 ## Verifying reproducible binaries
 
-Each release of CoyIM will have several signatures for the `build_info` file available. You can of course download and
+Each release of DecoyIM will have several signatures for the `build_info` file available. You can of course download and
 verify each one of those signatures manually, but we also provide a simple way of verifying it using a small Ruby
 script. It can be invoked like this:
 

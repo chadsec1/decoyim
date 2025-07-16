@@ -9,7 +9,7 @@ Here's the brief:
 * Contact us for questions & suggestions:
   * Email: [decoyim@tuta.io](mailto:decoyim@tuta.io)
 
-This document outlines our way of working, gives hints and outlines the steps to make your contribution to CoyIM as
+This document outlines our way of working, gives hints and outlines the steps to make your contribution to DecoyIM as
 smooth as possible. You're not required to read this before getting started. We're explaining the way we work to make
 sure you're having a good experience and can make best use of the time you're contributing to our project.
 
