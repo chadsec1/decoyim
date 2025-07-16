@@ -76,8 +76,7 @@ Run `export PATH="$HOME/go/bin:$PATH"` to fix it.
 
 
 ## Contributing to DecoyIM
-
-We have instructions here on how you [can get started contributing to CoyIM](CONTRIBUTING.md).
+We have instructions here on how you [can get started contributing to DecoyIM](CONTRIBUTING.md).
 
 
 ## Reproducibility
